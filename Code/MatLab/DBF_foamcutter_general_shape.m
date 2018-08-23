@@ -1,7 +1,7 @@
 %% DBF Foamcutter for Genearl Shapes
 % This code is written by Yuting Huang (ythuang96@gmail.com);
 % Please report all bug to the author's email address.
-% Last update: 8/22/2018
+% Last updated: 8/22/2018
 
 % This is written for DBF foamcutting, to generate G-code from general shape
 % AutoCAD drawings.
