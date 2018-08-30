@@ -87,8 +87,10 @@ tip_lower_xp = linspace(0,1,n)';
 
 %% Scale to Chord Length
 % chord length on machine
-root_chord_ext = root_chord + 0.5*(root_chord - tip_chord)*(cutter_width - semi_span)/semi_span;
-tip_chord_ext = root_chord - 0.5*(root_chord - tip_chord)*(cutter_width + semi_span)/semi_span;
+root_chord_ext = root_chord + ...
+    0.5*(root_chord - tip_chord)*(cutter_width - semi_span)/semi_span;
+tip_chord_ext = root_chord - ...
+    0.5*(root_chord - tip_chord)*(cutter_width + semi_span)/semi_span;
 
 root_upper_xp = root_chord_ext*root_upper_xp;
 root_upper_yp = root_chord_ext*root_upper_yp;
@@ -106,11 +108,15 @@ tip_lower_yp = tip_chord_ext*tip_lower_yp;
 c4 = tip_chord/4;
 twist_rad = (pi/180)*twist;
 
-tip_upper_xpr = tip_upper_xp*cos(twist_rad) + tip_upper_yp*sin(twist_rad) + c4*(1.0-cos(twist_rad));
-tip_upper_ypr = -tip_upper_xp*sin(twist_rad) + tip_upper_yp*cos(twist_rad) + c4*sin(twist_rad);
+tip_upper_xpr = tip_upper_xp*cos(twist_rad) ...
+    + tip_upper_yp*sin(twist_rad) + c4*(1.0-cos(twist_rad));
+tip_upper_ypr = -tip_upper_xp*sin(twist_rad) ...
+    + tip_upper_yp*cos(twist_rad) + c4*sin(twist_rad);
 
-tip_lower_xpr = tip_lower_xp*cos(twist_rad) + tip_lower_yp*sin(twist_rad) + c4*(1.0-cos(twist_rad));
-tip_lower_ypr = -tip_lower_xp*sin(twist_rad) + tip_lower_yp*cos(twist_rad) + c4*sin(twist_rad);
+tip_lower_xpr = tip_lower_xp*cos(twist_rad) ...
+    + tip_lower_yp*sin(twist_rad) + c4*(1.0-cos(twist_rad));
+tip_lower_ypr = -tip_lower_xp*sin(twist_rad) ...
+    + tip_lower_yp*cos(twist_rad) + c4*sin(twist_rad);
 
 %% Use Sweep Angle to Shift Tip Relative to Root
 sweep_shift = cutter_width*tan(LE_sweep*pi/180);

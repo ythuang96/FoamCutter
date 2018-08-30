@@ -1,7 +1,7 @@
 %% DBF Foamcutter for Genearl Shapes
 % This code is written by Yuting Huang (ythuang96@gmail.com);
 % Please report all bug to the author's email address.
-% Last updated: 8/22/2018
+% Last updated: 8/26/2018
 
 % This is written for DBF foamcutting, to generate G-code from general shape
 % AutoCAD drawings.
@@ -75,9 +75,11 @@ if unit == 1; % if drawing is in mm, continue generation of G-code
                     arcpoints = zeros(n_segment+1,2);
                     for j = 1:n_segment+1;  % break arc into points
                         theta = arc(i,4) + (j-1)*dtheta;
-                        arcpoints(j,:) = arc(i,1:2) + arc(i,3).*[cosd(theta),sind(theta)];
+                        arcpoints(j,:) = arc(i,1:2) + ...
+                            arc(i,3).*[cosd(theta),sind(theta)];
                     end
-                    % chage the start and end point so that the arc join the lines
+                    % chage the start and end point so that the arc join 
+                    % the lines
                     for j = 1:n_line;
                         if abs(arcpoints(1,:) - line(j,1:2)) <= 0.01;
                             arcpoints(1,:) = line(j,1:2);
@@ -91,7 +93,8 @@ if unit == 1; % if drawing is in mm, continue generation of G-code
                         end
                     end
                     % put all lines with arc points together
-                    alllines = [alllines ; arcpoints(1:end-1,:) ,arcpoints(2:end,:)];
+                    alllines = [alllines ; arcpoints(1:end-1,:) , ...
+                        arcpoints(2:end,:)];
                 end
                 %% Sort the lines in order
                 sort(1,:) = alllines(1,:);
@@ -110,7 +113,8 @@ if unit == 1; % if drawing is in mm, continue generation of G-code
                         end
                     end
                     if ~check 
-                        % cannot find the another line that connects with the previous
+                        % cannot find the another line that connects with 
+                        % the previous
                         fprintf('There is an open countour.\n');
                         fprintf('This is most likely caused by an ');
                         fprintf('extra line underneath a long line.\n');
@@ -143,16 +147,20 @@ if unit == 1; % if drawing is in mm, continue generation of G-code
                 hold off;
                 %% Determine Start Point
                 start = index(input('Which point would you like to start?    '));
-                sort3 = [sort2(start:end-1,:) ; sort2(1:start-1,:); sort2(start,:)];
+                sort3 = [sort2(start:end-1,:) ; sort2(1:start-1,:); ...
+                    sort2(start,:)];
                 %% Cut Direction Reverse if chosen to
-                direction = menu('The Current Cut Direction is shown in the Figure with Increasing Number, Reverse Cut Direction?','N0','YES');
+                direction = menu(['The Current Cut Direction is shown in', ...
+                    'the Figure with Increasing Number,', ...
+                    'Reverse Cut Direction?','N0','YES']);
                 if direction == 2; final = rot90(sort3',1);
                 elseif direction == 1; final = sort3; end
                 %% Final Plot
                 clf; hold on;
                 finalx = final(:,1); finaly = final(:,2);
                 plot(finalx,finaly);
-                title('Final shape on Foam Cutter, Drawing Unit mm','fontsize',30);
+                title('Final shape on Foam Cutter, Drawing Unit mm', ...
+                    'fontsize',30);
                 j = 1;
                 for i = 1:n
                     if final(i,1) == 0 || final(i,1) == max_x ...
@@ -177,7 +185,8 @@ if unit == 1; % if drawing is in mm, continue generation of G-code
                         ,finalx(i),finaly(i),finalx(i),finaly(i));
 
                     % Calculate Length
-                    length = sqrt((finalx(i)-finalx(i-1))^2+(finaly(i)-finaly(i-1))^2);
+                    length = sqrt((finalx(i)-finalx(i-1))^2 + ...
+                    (finaly(i)-finaly(i-1))^2);
                     if length >= 100;
                         fprintf(fidw,sprintf('G4 P%d\n',floor(length/100) ) );
                     end

@@ -1,5 +1,5 @@
 /*******************************************************************************
-* balance_config.h
+* foamcutter_setup.h
 *******************************************************************************/
 
 #ifndef FOAMCUTTER_SETUP
@@ -35,10 +35,10 @@
 #define FEEDRATE_PUL (FEEDRATE*MM2PULSE)
 
 // position of limit switch relative to cutter origin
-#define LIM2ORIGIN_LX -4100  // 10mm
-#define LIM2ORIGIN_RX -3550  // 10mm
-#define LIM2ORIGIN_LY -2500 // 5mm
-#define LIM2ORIGIN_RY -2400 // 5mm
+#define LIM2ORIGIN_LX -4100
+#define LIM2ORIGIN_RX -3550
+#define LIM2ORIGIN_LY -2500
+#define LIM2ORIGIN_RY -2400
 
 // Motor Drive Pins
 #define PIN_LX_DIR 14

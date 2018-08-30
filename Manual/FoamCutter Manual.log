@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.1)  22 AUG 2018 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.1)  27 AUG 2018 15:55
 entering extended mode
 **"./FoamCutter Manual.tex"
 ("FoamCutter Manual.tex"
@@ -6,8 +6,8 @@ LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -71,8 +71,8 @@ Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
 Package ExtSizes Warning: It is better to use one of the extsizes classes,
  if you can.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
 Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
@@ -1131,6 +1131,13 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks48
 \minrowclearance=\skip84
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
@@ -1141,20 +1148,20 @@ LaTeX Warning: Unused global option(s):
 ("FoamCutter Manual.aux")
 \openout1 = `"FoamCutter Manual.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1196,7 +1203,7 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 \c@lstlisting=\count288
 \AtBeginShipoutBox=\box102
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1206,9 +1213,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 ("FoamCutter Manual.out") ("FoamCutter Manual.out")
 \@outlinefile=\write6
@@ -1217,17 +1224,17 @@ LaTeX Info: Redefining \nameref on input line 52.
 
 ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count290
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 52.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1235,244 +1242,1436 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \c__siunitx_mathtt_int=\count291
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] ("FoamCutter Manual.toc")
-\tf@toc=\write7
-\openout7 = `"FoamCutter Manual.toc"'.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+<./Figures/overview.jpg, id=168, 3000.20876pt x 2250.4075pt>
+File: ./Figures/overview.jpg Graphic file (type jpg)
+
+<use ./Figures/overview.jpg>
+Package pdftex.def Info: ./Figures/overview.jpg used on input line 80.
+(pdftex.def)             Requested size: 305.33788pt x 229.00285pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \newpage
+l.83 \newpage
               [1
 
-]
+ <./Figures/overview.jpg>] ("FoamCutter Manual.toc" [2
+
+])
+\tf@toc=\write7
+\openout7 = `"FoamCutter Manual.toc"'.
+
+
+[3]
 Chapter 1.
-<./Figures/Laptop_Setup/putty1.png, id=82, 226.59656pt x 204.3886pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+<./Figures/Laptop_Setup/putty1.png, id=225, 226.59656pt x 204.3886pt>
 File: ./Figures/Laptop_Setup/putty1.png Graphic file (type png)
 
 <use ./Figures/Laptop_Setup/putty1.png>
-Package pdftex.def Info: ./Figures/Laptop_Setup/putty1.png used on input line 8
-6.
+Package pdftex.def Info: ./Figures/Laptop_Setup/putty1.png used on input line 1
+08.
 (pdftex.def)             Requested size: 281.85585pt x 254.23448pt.
+ [4
 
-<./Figures/Laptop_Setup/putty2.png, id=85, 226.59656pt x 204.3886pt>
+]
+<./Figures/Laptop_Setup/putty2.png, id=237, 226.59656pt x 204.3886pt>
 File: ./Figures/Laptop_Setup/putty2.png Graphic file (type png)
 
 <use ./Figures/Laptop_Setup/putty2.png>
-Package pdftex.def Info: ./Figures/Laptop_Setup/putty2.png used on input line 9
-2.
+Package pdftex.def Info: ./Figures/Laptop_Setup/putty2.png used on input line 1
+14.
 (pdftex.def)             Requested size: 281.85585pt x 254.23448pt.
- [2
 
- <./Figures/Laptop_Setup/putty1.png>] <./Figures/Laptop_Setup/putty3.png, id=95
-, 226.59656pt x 204.3886pt>
+<./Figures/Laptop_Setup/putty3.png, id=239, 226.59656pt x 204.3886pt>
 File: ./Figures/Laptop_Setup/putty3.png Graphic file (type png)
 
 <use ./Figures/Laptop_Setup/putty3.png>
-Package pdftex.def Info: ./Figures/Laptop_Setup/putty3.png used on input line 9
-8.
+Package pdftex.def Info: ./Figures/Laptop_Setup/putty3.png used on input line 1
+20.
 (pdftex.def)             Requested size: 281.85585pt x 254.23448pt.
- [3 <./Figures/Laptop_Setup/putty2.png> <./Figures/Laptop_Setup/putty3.png>]
-<./Figures/Laptop_Setup/winscp1.png, id=108, 481.8pt x 323.70938pt>
+ [5 <./Figures/Laptop_Setup/putty1.png> <./Figures/Laptop_Setup/putty2.png>]
+<./Figures/Laptop_Setup/winscp1.png, id=251, 481.8pt x 323.70938pt>
 File: ./Figures/Laptop_Setup/winscp1.png Graphic file (type png)
 
 <use ./Figures/Laptop_Setup/winscp1.png>
 Package pdftex.def Info: ./Figures/Laptop_Setup/winscp1.png used on input line 
-112.
+135.
 (pdftex.def)             Requested size: 281.85585pt x 189.37663pt.
-
-<./Figures/Laptop_Setup/winscp2.png, id=110, 481.8pt x 323.70938pt>
+ [6 <./Figures/Laptop_Setup/putty3.png>] <./Figures/Laptop_Setup/winscp2.png, i
+d=264, 481.8pt x 323.70938pt>
 File: ./Figures/Laptop_Setup/winscp2.png Graphic file (type png)
 
 <use ./Figures/Laptop_Setup/winscp2.png>
 Package pdftex.def Info: ./Figures/Laptop_Setup/winscp2.png used on input line 
-118.
+141.
 (pdftex.def)             Requested size: 281.85585pt x 189.37663pt.
 
-<./Figures/Laptop_Setup/winscp3.png, id=112, 238.26515pt x 146.04562pt>
+<./Figures/Laptop_Setup/winscp3.png, id=266, 238.26515pt x 146.04562pt>
 File: ./Figures/Laptop_Setup/winscp3.png Graphic file (type png)
 
 <use ./Figures/Laptop_Setup/winscp3.png>
 Package pdftex.def Info: ./Figures/Laptop_Setup/winscp3.png used on input line 
-124.
+147.
 (pdftex.def)             Requested size: 281.85585pt x 172.77354pt.
- [4 <./Figures/Laptop_Setup/winscp1.png> <./Figures/Laptop_Setup/winscp2.png>] 
-[5 <./Figures/Laptop_Setup/winscp3.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
+ [7 <./Figures/Laptop_Setup/winscp1.png> <./Figures/Laptop_Setup/winscp2.png>] 
+[8 <./Figures/Laptop_Setup/winscp3.png>]
+File: ./Figures/overview.jpg Graphic file (type jpg)
+ <use ./Figures/overview.jpg>
+Package pdftex.def Info: ./Figures/overview.jpg used on input line 163.
+(pdftex.def)             Requested size: 422.77661pt x 317.1152pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 172.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
-
-<./Figures/general_shape/sw1.png, id=133, 657.2053pt x 384.31078pt>
-File: ./Figures/general_shape/sw1.png Graphic file (type png)
-
-<use ./Figures/general_shape/sw1.png>
-Package pdftex.def Info: ./Figures/general_shape/sw1.png used on input line 156
-.
-(pdftex.def)             Requested size: 281.85585pt x 164.82233pt.
-
-<./Figures/general_shape/sw2.png, id=135, 625.58719pt x 603.0028pt>
-File: ./Figures/general_shape/sw2.png Graphic file (type png)
-
-<use ./Figures/general_shape/sw2.png>
-Package pdftex.def Info: ./Figures/general_shape/sw2.png used on input line 163
-.
-(pdftex.def)             Requested size: 281.85585pt x 271.6892pt.
- [6 <./Figures/general_shape/sw1.png>]
-<./Figures/general_shape/sw3.png, id=148, 691.83469pt x 543.15422pt>
-File: ./Figures/general_shape/sw3.png Graphic file (type png)
-
-<use ./Figures/general_shape/sw3.png>
-Package pdftex.def Info: ./Figures/general_shape/sw3.png used on input line 170
-.
-(pdftex.def)             Requested size: 422.77661pt x 331.92032pt.
- [7 <./Figures/general_shape/sw2.png>]
-<./Figures/general_shape/sw4.png, id=156, 554.44641pt x 437.76047pt>
-File: ./Figures/general_shape/sw4.png Graphic file (type png)
-
-<use ./Figures/general_shape/sw4.png>
-Package pdftex.def Info: ./Figures/general_shape/sw4.png used on input line 177
-.
-(pdftex.def)             Requested size: 281.85585pt x 222.54015pt.
-
-<./Figures/general_shape/sw5.png, id=157, 558.21046pt x 363.23203pt>
-File: ./Figures/general_shape/sw5.png Graphic file (type png)
-
-<use ./Figures/general_shape/sw5.png>
-Package pdftex.def Info: ./Figures/general_shape/sw5.png used on input line 184
-.
-(pdftex.def)             Requested size: 281.85585pt x 183.41132pt.
- [8 <./Figures/general_shape/sw3.png> <./Figures/general_shape/sw4.png>]
-<./Figures/general_shape/cad1.png, id=166, 321.82735pt x 437.00766pt>
-File: ./Figures/general_shape/cad1.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad1.png>
-Package pdftex.def Info: ./Figures/general_shape/cad1.png used on input line 19
-6.
-(pdftex.def)             Requested size: 187.89912pt x 255.15834pt.
-
-<./Figures/general_shape/cad2.png, id=167, 271.76532pt x 309.02953pt>
-File: ./Figures/general_shape/cad2.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad2.png>
-Package pdftex.def Info: ./Figures/general_shape/cad2.png used on input line 20
-0.
-(pdftex.def)             Requested size: 187.89912pt x 213.67384pt.
-
-<./Figures/general_shape/cad3.png, id=169, 752.4361pt x 383.55797pt>
-File: ./Figures/general_shape/cad3.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad3.png>
-Package pdftex.def Info: ./Figures/general_shape/cad3.png used on input line 21
-1.
-(pdftex.def)             Requested size: 422.77661pt x 215.51671pt.
- [9 <./Figures/general_shape/sw5.png> <./Figures/general_shape/cad1.png> <./Fig
-ures/general_shape/cad2.png>]
-<./Figures/general_shape/cad4.png, id=186, 359.84438pt x 182.18062pt>
-File: ./Figures/general_shape/cad4.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad4.png>
-Package pdftex.def Info: ./Figures/general_shape/cad4.png used on input line 21
-9.
-(pdftex.def)             Requested size: 281.85585pt x 142.70908pt.
-
-<./Figures/general_shape/cad5.png, id=187, 493.0922pt x 370.38374pt>
-File: ./Figures/general_shape/cad5.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad5.png>
-Package pdftex.def Info: ./Figures/general_shape/cad5.png used on input line 22
-5.
-(pdftex.def)             Requested size: 281.85585pt x 211.72563pt.
- [10 <./Figures/general_shape/cad3.png> <./Figures/general_shape/cad4.png>]
-<./Figures/general_shape/cad6.png, id=199, 445.28859pt x 191.9672pt>
-File: ./Figures/general_shape/cad6.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad6.png>
-Package pdftex.def Info: ./Figures/general_shape/cad6.png used on input line 23
-1.
-(pdftex.def)             Requested size: 281.85585pt x 121.51115pt.
-
-<./Figures/general_shape/cad7.png, id=200, 445.28859pt x 191.9672pt>
-File: ./Figures/general_shape/cad7.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad7.png>
-Package pdftex.def Info: ./Figures/general_shape/cad7.png used on input line 23
-6.
-(pdftex.def)             Requested size: 281.85585pt x 121.51115pt.
-
-<./Figures/general_shape/cad8.png, id=201, 362.47922pt x 182.18062pt>
-File: ./Figures/general_shape/cad8.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad8.png>
-Package pdftex.def Info: ./Figures/general_shape/cad8.png used on input line 24
-1.
-(pdftex.def)             Requested size: 281.85585pt x 141.66107pt.
- [11 <./Figures/general_shape/cad5.png> <./Figures/general_shape/cad6.png> <./F
-igures/general_shape/cad7.png>]
-<./Figures/general_shape/cad9.png, id=215, 362.47922pt x 182.18062pt>
-File: ./Figures/general_shape/cad9.png Graphic file (type png)
-
-<use ./Figures/general_shape/cad9.png>
-Package pdftex.def Info: ./Figures/general_shape/cad9.png used on input line 24
-7.
-(pdftex.def)             Requested size: 281.85585pt x 141.66107pt.
-
-Overfull \hbox (34.37708pt too wide) in paragraph at lines 251--252
-[]\OT1/cmr/m/n/10 Put the .csv file from Au-to-CAD into the same folder as the 
-Mat-LAB scritpt ``DBF[]foamcutter[]general[]shape.m''
- []
-
-<./Figures/overview.jpg, id=217, 3276.24pt x 2457.18pt>
-File: ./Figures/overview.jpg Graphic file (type jpg)
-
-<use ./Figures/overview.jpg>
-Package pdftex.def Info: ./Figures/overview.jpg used on input line 262.
-(pdftex.def)             Requested size: 422.77661pt x 317.08252pt.
- [12 <./Figures/general_shape/cad8.png> <./Figures/general_shape/cad9.png>]
-<./Figures/thumb_screw.jpg, id=231, 2602.72375pt x 1939.245pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 172.
+ [9]
+<./Figures/thumb_screw.jpg, id=290, 2602.72375pt x 1939.245pt>
 File: ./Figures/thumb_screw.jpg Graphic file (type jpg)
 
 <use ./Figures/thumb_screw.jpg>
-Package pdftex.def Info: ./Figures/thumb_screw.jpg used on input line 287.
-(pdftex.def)             Requested size: 422.77661pt x 314.99042pt.
- [13 <./Figures/overview.jpg>] [14 <./Figures/thumb_screw.jpg>] [15
+Package pdftex.def Info: ./Figures/thumb_screw.jpg used on input line 200.
+(pdftex.def)             Requested size: 375.80542pt x 279.98491pt.
+ [10 <./Figures/thumb_screw.jpg>]
+<./Figures/molex.jpg, id=297, 3000.20876pt x 2250.4075pt>
+File: ./Figures/molex.jpg Graphic file (type jpg)
+
+<use ./Figures/molex.jpg>
+Package pdftex.def Info: ./Figures/molex.jpg used on input line 215.
+(pdftex.def)             Requested size: 283.26076pt x 212.45174pt.
+
+<./Figures/molex1.jpg, id=298, 3276.24pt x 2457.18pt>
+File: ./Figures/molex1.jpg Graphic file (type jpg)
+
+<use ./Figures/molex1.jpg>
+Package pdftex.def Info: ./Figures/molex1.jpg used on input line 218.
+(pdftex.def)             Requested size: 140.92792pt x 105.69417pt.
+
+<./Figures/molex2.jpg, id=299, 3276.24pt x 2457.18pt>
+File: ./Figures/molex2.jpg Graphic file (type jpg)
+
+<use ./Figures/molex2.jpg>
+Package pdftex.def Info: ./Figures/molex2.jpg used on input line 220.
+(pdftex.def)             Requested size: 140.92792pt x 105.69417pt.
+
+<./Figures/panel_thumb_screw.jpg, id=301, 2456.17625pt x 1950.28625pt>
+File: ./Figures/panel_thumb_screw.jpg Graphic file (type jpg)
+
+<use ./Figures/panel_thumb_screw.jpg>
+Package pdftex.def Info: ./Figures/panel_thumb_screw.jpg used on input line 229
+.
+(pdftex.def)             Requested size: 375.80542pt x 298.39282pt.
+ [11 <./Figures/molex.jpg> <./Figures/molex1.jpg> <./Figures/molex2.jpg>]
+<./Figures/panel.jpg, id=310, 1287.81125pt x 965.6075pt>
+File: ./Figures/panel.jpg Graphic file (type jpg)
+
+<use ./Figures/panel.jpg>
+Package pdftex.def Info: ./Figures/panel.jpg used on input line 235.
+(pdftex.def)             Requested size: 375.80542pt x 281.77234pt.
+ [12 <./Figures/panel_thumb_screw.jpg>] [13 <./Figures/panel.jpg>] <./Figures/W
+ire_mounting/1.jpg, id=321, 3276.24pt x 2457.18pt>
+File: ./Figures/Wire_mounting/1.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/1.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/1.jpg used on input line 250.
+(pdftex.def)             Requested size: 223.13647pt x 167.33348pt.
+
+<./Figures/Wire_mounting/2.jpg, id=322, 2457.18pt x 1842.885pt>
+File: ./Figures/Wire_mounting/2.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/2.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/2.jpg used on input line 255.
+(pdftex.def)             Requested size: 223.13647pt x 167.34285pt.
+
+<./Figures/Wire_mounting/3.jpg, id=323, 2457.18pt x 1842.885pt>
+File: ./Figures/Wire_mounting/3.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/3.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/3.jpg used on input line 261.
+(pdftex.def)             Requested size: 223.13647pt x 167.34285pt.
+
+<./Figures/Wire_mounting/4.jpg, id=324, 2453.165pt x 1839.87375pt>
+File: ./Figures/Wire_mounting/4.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/4.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/4.jpg used on input line 266.
+(pdftex.def)             Requested size: 223.13647pt x 167.35016pt.
+
+<./Figures/Wire_mounting/5.jpg, id=325, 2457.18pt x 1842.885pt>
+File: ./Figures/Wire_mounting/5.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/5.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/5.jpg used on input line 281.
+(pdftex.def)             Requested size: 223.13647pt x 167.34285pt.
+
+<./Figures/Wire_mounting/6.jpg, id=326, 3276.24pt x 2457.18pt>
+File: ./Figures/Wire_mounting/6.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/6.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/6.jpg used on input line 286.
+(pdftex.def)             Requested size: 223.13647pt x 167.33348pt.
+
+<./Figures/Wire_mounting/7.jpg, id=327, 2544.50626pt x 1908.12875pt>
+File: ./Figures/Wire_mounting/7.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/7.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/7.jpg used on input line 292.
+(pdftex.def)             Requested size: 223.13647pt x 167.32771pt.
+
+<./Figures/Wire_mounting/8.jpg, id=328, 3276.24pt x 2457.18pt>
+File: ./Figures/Wire_mounting/8.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/8.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/8.jpg used on input line 297.
+(pdftex.def)             Requested size: 223.13647pt x 167.33348pt.
+ [14 <./Figures/Wire_mounting/1.jpg> <./Figures/Wire_mounting/2.jpg> <./Figures
+/Wire_mounting/3.jpg> <./Figures/Wire_mounting/4.jpg>] <./Figures/Wire_mounting
+/9.jpg, id=339, 3276.24pt x 2457.18pt>
+File: ./Figures/Wire_mounting/9.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/9.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/9.jpg used on input line 312.
+(pdftex.def)             Requested size: 223.13647pt x 167.33348pt.
+
+<./Figures/Wire_mounting/10.jpg, id=340, 3276.24pt x 2457.18pt>
+File: ./Figures/Wire_mounting/10.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/10.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/10.jpg used on input line 317.
+
+(pdftex.def)             Requested size: 223.13647pt x 167.33348pt.
+
+<./Figures/Wire_mounting/11.jpg, id=341, 2457.18pt x 1842.885pt>
+File: ./Figures/Wire_mounting/11.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/11.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/11.jpg used on input line 323.
+
+(pdftex.def)             Requested size: 223.13647pt x 167.34285pt.
+
+<./Figures/Wire_mounting/12.jpg, id=342, 2456.17625pt x 1842.885pt>
+File: ./Figures/Wire_mounting/12.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/12.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/12.jpg used on input line 328.
+
+(pdftex.def)             Requested size: 223.13647pt x 167.3991pt.
+
+<./Figures/Wire_mounting/13.jpg, id=343, 3276.24pt x 2457.18pt>
+File: ./Figures/Wire_mounting/13.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/13.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/13.jpg used on input line 334.
+
+(pdftex.def)             Requested size: 223.13647pt x 167.33348pt.
+
+<./Figures/Wire_mounting/14.jpg, id=344, 2457.18pt x 1842.885pt>
+File: ./Figures/Wire_mounting/14.jpg Graphic file (type jpg)
+
+<use ./Figures/Wire_mounting/14.jpg>
+Package pdftex.def Info: ./Figures/Wire_mounting/14.jpg used on input line 339.
+
+(pdftex.def)             Requested size: 223.13647pt x 167.34285pt.
+ [15 <./Figures/Wire_mounting/5.jpg> <./Figures/Wire_mounting/6.jpg> <./Figures
+/Wire_mounting/7.jpg> <./Figures/Wire_mounting/8.jpg>] [16 <./Figures/Wire_moun
+ting/9.jpg> <./Figures/Wire_mounting/10.jpg> <./Figures/Wire_mounting/11.jpg> <
+./Figures/Wire_mounting/12.jpg> <./Figures/Wire_mounting/13.jpg> <./Figures/Wir
+e_mounting/14.jpg>]
+<./Figures/winscp.png, id=364, 860.8411pt x 489.70453pt>
+File: ./Figures/winscp.png Graphic file (type png)
+
+<use ./Figures/winscp.png>
+Package pdftex.def Info: ./Figures/winscp.png used on input line 360.
+(pdftex.def)             Requested size: 422.77661pt x 240.51025pt.
+ [17 <./Figures/winscp.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 376.
+
+<./Figures/zero_wire_1.jpg, id=380, 3275.23625pt x 2456.17625pt>
+File: ./Figures/zero_wire_1.jpg Graphic file (type jpg)
+
+<use ./Figures/zero_wire_1.jpg>
+Package pdftex.def Info: ./Figures/zero_wire_1.jpg used on input line 385.
+(pdftex.def)             Requested size: 375.80542pt x 281.79846pt.
+ [18]
+<./Figures/zero_wire_2.jpg, id=394, 3276.24pt x 2457.18pt>
+File: ./Figures/zero_wire_2.jpg Graphic file (type jpg)
+
+<use ./Figures/zero_wire_2.jpg>
+Package pdftex.def Info: ./Figures/zero_wire_2.jpg used on input line 391.
+(pdftex.def)             Requested size: 375.80542pt x 281.83864pt.
+ [19 <./Figures/zero_wire_1.jpg>] [20 <./Figures/zero_wire_2.jpg>] <./Figures/w
+ing_example.png, id=417, 1156.32pt x 650.43pt>
+File: ./Figures/wing_example.png Graphic file (type png)
+
+<use ./Figures/wing_example.png>
+Package pdftex.def Info: ./Figures/wing_example.png used on input line 451.
+(pdftex.def)             Requested size: 422.77661pt x 237.80693pt.
+ [21]
+<./Figures/wing_example2.png, id=432, 472.76625pt x 461.85046pt>
+File: ./Figures/wing_example2.png Graphic file (type png)
+
+<use ./Figures/wing_example2.png>
+Package pdftex.def Info: ./Figures/wing_example2.png used on input line 457.
+(pdftex.def)             Requested size: 328.82706pt x 321.24237pt.
+ [22 <./Figures/wing_example.png (PNG copy)>]
+<./Figures/wing_example3.png, id=440, 441.14813pt x 298.49016pt>
+File: ./Figures/wing_example3.png Graphic file (type png)
+
+<use ./Figures/wing_example3.png>
+Package pdftex.def Info: ./Figures/wing_example3.png used on input line 463.
+(pdftex.def)             Requested size: 258.36667pt x 174.82326pt.
+ [23 <./Figures/wing_example2.png> <./Figures/wing_example3.png>]
+<./Figures/general_shape/sw1.png, id=450, 657.2053pt x 384.31078pt>
+File: ./Figures/general_shape/sw1.png Graphic file (type png)
+
+<use ./Figures/general_shape/sw1.png>
+Package pdftex.def Info: ./Figures/general_shape/sw1.png used on input line 485
+.
+(pdftex.def)             Requested size: 281.85585pt x 164.82233pt.
+
+<./Figures/general_shape/sw2.png, id=452, 625.58719pt x 603.0028pt>
+File: ./Figures/general_shape/sw2.png Graphic file (type png)
+
+<use ./Figures/general_shape/sw2.png>
+Package pdftex.def Info: ./Figures/general_shape/sw2.png used on input line 492
+.
+(pdftex.def)             Requested size: 281.85585pt x 271.6892pt.
+ [24 <./Figures/general_shape/sw1.png>]
+<./Figures/general_shape/sw3.png, id=464, 691.83469pt x 543.15422pt>
+File: ./Figures/general_shape/sw3.png Graphic file (type png)
+
+<use ./Figures/general_shape/sw3.png>
+Package pdftex.def Info: ./Figures/general_shape/sw3.png used on input line 499
+.
+(pdftex.def)             Requested size: 422.77661pt x 331.92032pt.
+ [25 <./Figures/general_shape/sw2.png>]
+<./Figures/general_shape/sw4.png, id=472, 554.44641pt x 437.76047pt>
+File: ./Figures/general_shape/sw4.png Graphic file (type png)
+
+<use ./Figures/general_shape/sw4.png>
+Package pdftex.def Info: ./Figures/general_shape/sw4.png used on input line 506
+.
+(pdftex.def)             Requested size: 281.85585pt x 222.54015pt.
+ [26 <./Figures/general_shape/sw3.png>]
+<./Figures/general_shape/sw5.png, id=479, 558.21046pt x 363.23203pt>
+File: ./Figures/general_shape/sw5.png Graphic file (type png)
+
+<use ./Figures/general_shape/sw5.png>
+Package pdftex.def Info: ./Figures/general_shape/sw5.png used on input line 513
+.
+(pdftex.def)             Requested size: 281.85585pt x 183.41132pt.
+
+<./Figures/general_shape/cad1.png, id=481, 321.82735pt x 437.00766pt>
+File: ./Figures/general_shape/cad1.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad1.png>
+Package pdftex.def Info: ./Figures/general_shape/cad1.png used on input line 52
+5.
+(pdftex.def)             Requested size: 187.89912pt x 255.15834pt.
+
+<./Figures/general_shape/cad2.png, id=482, 271.76532pt x 309.02953pt>
+File: ./Figures/general_shape/cad2.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad2.png>
+Package pdftex.def Info: ./Figures/general_shape/cad2.png used on input line 52
+9.
+(pdftex.def)             Requested size: 187.89912pt x 213.67384pt.
+ [27 <./Figures/general_shape/sw4.png> <./Figures/general_shape/sw5.png>]
+<./Figures/general_shape/cad3.png, id=493, 752.4361pt x 383.55797pt>
+File: ./Figures/general_shape/cad3.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad3.png>
+Package pdftex.def Info: ./Figures/general_shape/cad3.png used on input line 54
+0.
+(pdftex.def)             Requested size: 422.77661pt x 215.51671pt.
+ [28 <./Figures/general_shape/cad1.png> <./Figures/general_shape/cad2.png> <./F
+igures/general_shape/cad3.png>]
+<./Figures/general_shape/cad4.png, id=508, 359.84438pt x 182.18062pt>
+File: ./Figures/general_shape/cad4.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad4.png>
+Package pdftex.def Info: ./Figures/general_shape/cad4.png used on input line 54
+8.
+(pdftex.def)             Requested size: 281.85585pt x 142.70908pt.
+
+<./Figures/general_shape/cad5.png, id=509, 493.0922pt x 370.38374pt>
+File: ./Figures/general_shape/cad5.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad5.png>
+Package pdftex.def Info: ./Figures/general_shape/cad5.png used on input line 55
+4.
+(pdftex.def)             Requested size: 281.85585pt x 211.72563pt.
+
+<./Figures/general_shape/cad6.png, id=510, 445.28859pt x 191.9672pt>
+File: ./Figures/general_shape/cad6.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad6.png>
+Package pdftex.def Info: ./Figures/general_shape/cad6.png used on input line 56
+0.
+(pdftex.def)             Requested size: 281.85585pt x 121.51115pt.
+ [29 <./Figures/general_shape/cad4.png> <./Figures/general_shape/cad5.png>]
+<./Figures/general_shape/cad7.png, id=523, 445.28859pt x 191.9672pt>
+File: ./Figures/general_shape/cad7.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad7.png>
+Package pdftex.def Info: ./Figures/general_shape/cad7.png used on input line 56
+5.
+(pdftex.def)             Requested size: 281.85585pt x 121.51115pt.
+
+<./Figures/general_shape/cad8.png, id=524, 362.47922pt x 182.18062pt>
+File: ./Figures/general_shape/cad8.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad8.png>
+Package pdftex.def Info: ./Figures/general_shape/cad8.png used on input line 57
+0.
+(pdftex.def)             Requested size: 281.85585pt x 141.66107pt.
+
+<./Figures/general_shape/cad9.png, id=525, 362.47922pt x 182.18062pt>
+File: ./Figures/general_shape/cad9.png Graphic file (type png)
+
+<use ./Figures/general_shape/cad9.png>
+Package pdftex.def Info: ./Figures/general_shape/cad9.png used on input line 57
+6.
+(pdftex.def)             Requested size: 281.85585pt x 141.66107pt.
+ [30 <./Figures/general_shape/cad6.png> <./Figures/general_shape/cad7.png> <./F
+igures/general_shape/cad8.png>]
+Overfull \hbox (134.05327pt too wide) in paragraph at lines 580--581
+[]\T1/cmr/m/n/12 Put the .csv file from Au-to-CAD into the same folder as the M
+at-LAB scritpt ``DBF_foamcutter_general_shape.m''
+ []
+
+[31 <./Figures/general_shape/cad9.png>]
+Chapter 2.
+<./Figures/electric.jpg, id=548, 3275.23625pt x 2457.18pt>
+File: ./Figures/electric.jpg Graphic file (type jpg)
+
+<use ./Figures/electric.jpg>
+Package pdftex.def Info: ./Figures/electric.jpg used on input line 595.
+(pdftex.def)             Requested size: 375.80542pt x 281.91362pt.
+ [32
+
+ <./Figures/electric.jpg>]
+<./Figures/secure_foam/1.jpg, id=557, 2457.18pt x 3276.24pt>
+File: ./Figures/secure_foam/1.jpg Graphic file (type jpg)
+
+<use ./Figures/secure_foam/1.jpg>
+Package pdftex.def Info: ./Figures/secure_foam/1.jpg used on input line 637.
+(pdftex.def)             Requested size: 211.3883pt x 281.85114pt.
+ [33]
+<./Figures/secure_foam/2.jpg, id=577, 3276.24pt x 2457.18pt>
+File: ./Figures/secure_foam/2.jpg Graphic file (type jpg)
+
+<use ./Figures/secure_foam/2.jpg>
+Package pdftex.def Info: ./Figures/secure_foam/2.jpg used on input line 645.
+(pdftex.def)             Requested size: 281.85585pt x 211.38835pt.
+ [34 <./Figures/secure_foam/1.jpg>]
+<./Figures/secure_foam/3.jpg, id=588, 3276.24pt x 2457.18pt>
+File: ./Figures/secure_foam/3.jpg Graphic file (type jpg)
+
+<use ./Figures/secure_foam/3.jpg>
+Package pdftex.def Info: ./Figures/secure_foam/3.jpg used on input line 651.
+(pdftex.def)             Requested size: 281.85585pt x 211.38835pt.
+
+<./Figures/secure_foam/4.jpg, id=590, 3276.24pt x 2457.18pt>
+File: ./Figures/secure_foam/4.jpg Graphic file (type jpg)
+
+<use ./Figures/secure_foam/4.jpg>
+Package pdftex.def Info: ./Figures/secure_foam/4.jpg used on input line 657.
+(pdftex.def)             Requested size: 281.85585pt x 211.38835pt.
+ [35 <./Figures/secure_foam/2.jpg> <./Figures/secure_foam/3.jpg>]
+<./Figures/secure_foam/5.jpg, id=600, 3276.24pt x 2457.18pt>
+File: ./Figures/secure_foam/5.jpg Graphic file (type jpg)
+
+<use ./Figures/secure_foam/5.jpg>
+Package pdftex.def Info: ./Figures/secure_foam/5.jpg used on input line 663.
+(pdftex.def)             Requested size: 281.85585pt x 211.38835pt.
+ [36 <./Figures/secure_foam/4.jpg> <./Figures/secure_foam/5.jpg>] [37]
+Chapter 3.
+[38
+
+]
+File: ./Figures/Laptop_Setup/putty3.png Graphic file (type png)
+ <use ./Figures/Laptop_Setup/putty3.png>
+Package pdftex.def Info: ./Figures/Laptop_Setup/putty3.png used on input line 7
+14.
+(pdftex.def)             Requested size: 281.85585pt x 254.23448pt.
+ [39]
+Underfull \hbox (badness 10000) in paragraph at lines 735--736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+
+ []
+
+
+Overfull \hbox (16.0675pt too wide) in paragraph at lines 749--750
+\T1/cmr/m/n/12 ar-eas with-out a wire-less net-work. The fol-low-ing steps are 
+adapted from: [][]https://elinux.org/RPI-
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 783--796
+
+ []
+
+[41] [42
 
 
 ]
 Appendix A.
-[16
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=675, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf used on input line 827.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+<use ../Code/C/foamcutter.pdf>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf used on input line 827.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=678, page=1, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page1 used on input line 827
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page1 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[43
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page1 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page1 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page1 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[44 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=704, page=2, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 2>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page2 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 2>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page2 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 2>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page2 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [45 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=709, page=3, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 3>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page3 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 3>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page3 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 3>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page3 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [46 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=714, page=4, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 4>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page4 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 4>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page4 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 4>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page4 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [47 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=719, page=5, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 5>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page5 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 5>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page5 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 5>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page5 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [48 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=725, page=6, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 6>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page6 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 6>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page6 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 6>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page6 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [49 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=730, page=7, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 7>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page7 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 7>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page7 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 7>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page7 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [50 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=735, page=8, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 8>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page8 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 8>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page8 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 8>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page8 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [51 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=740, page=9, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 9>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page9 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+ <use ../Code/C/foamcutter.pdf, page 9>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page9 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 9>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page9 used on input line 827
+.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [52 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=745, page=10, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 10>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page10 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 10>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page10 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 10>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page10 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [53 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=750, page=11, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 11>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page11 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 11>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page11 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 11>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page11 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [54 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=756, page=12, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 12>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page12 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 12>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page12 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 12>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page12 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [55 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=761, page=13, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 13>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page13 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 13>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page13 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 13>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page13 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [56 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=766, page=14, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 14>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page14 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 14>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page14 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 14>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page14 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [57 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=771, page=15, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 15>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page15 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 15>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page15 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 15>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page15 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [58 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter.pdf, id=776, page=16, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 16>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page16 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 16>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page16 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter.pdf, page 16>
+Package pdftex.def Info: ../Code/C/foamcutter.pdf, page16 used on input line 82
+7.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [59 <../Code/C/foamcutter.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter_setup.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter_setup.pdf, id=781, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter_setup.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter_setup.pdf>
+Package pdftex.def Info: ../Code/C/foamcutter_setup.pdf used on input line 831.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter_setup.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+File: ../Code/C/foamcutter_setup.pdf Graphic file (type pdf)
+<use ../Code/C/foamcutter_setup.pdf>
+Package pdftex.def Info: ../Code/C/foamcutter_setup.pdf used on input line 831.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter_setup.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/C/foamcutter_setup.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<../Code/C/foamcutter_setup.pdf, id=784, page=1, 614.295pt x 794.97pt>
+File: ../Code/C/foamcutter_setup.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter_setup.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter_setup.pdf, page1 used on input li
+ne 831.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../Code/C/foamcutter_setup.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter_setup.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter_setup.pdf, page1 used on input li
+ne 831.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [60]
+File: ../Code/C/foamcutter_setup.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter_setup.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter_setup.pdf, page1 used on input li
+ne 831.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter_setup.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter_setup.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter_setup.pdf, page1 used on input li
+ne 831.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/C/foamcutter_setup.pdf Graphic file (type pdf)
+
+<use ../Code/C/foamcutter_setup.pdf, page 1>
+Package pdftex.def Info: ../Code/C/foamcutter_setup.pdf, page1 used on input li
+ne 831.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [61 <../Code/C/foamcutter_setup.pdf>]
+Appendix B.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<../Code/MatLab/DBF_foamcutter_general_shape.pdf, id=803, 614.295pt x 794.97pt>
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf used o
+n input line 836.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf used o
+n input line 836.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<../Code/MatLab/DBF_foamcutter_general_shape.pdf, id=806, page=1, 614.295pt x 7
+94.97pt>
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+ <use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page1
+ used on input line 836.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page1
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 835--836
+
+ []
+
+[62
+
+]
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+ <use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page1
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page1
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page1
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [63 <../Code/MatLab/DBF_foamcutter_general_shape.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<../Code/MatLab/DBF_foamcutter_general_shape.pdf, id=824, page=2, 614.295pt x 7
+94.97pt>
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+ <use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 2>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page2
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 2>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page2
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 2>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page2
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [64 <../Code/MatLab/DBF_foamcutter_general_shape.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<../Code/MatLab/DBF_foamcutter_general_shape.pdf, id=829, page=3, 614.295pt x 7
+94.97pt>
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+ <use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 3>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page3
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 3>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page3
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 3>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page3
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [65 <../Code/MatLab/DBF_foamcutter_general_shape.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<../Code/MatLab/DBF_foamcutter_general_shape.pdf, id=834, page=4, 614.295pt x 7
+94.97pt>
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+ <use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 4>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page4
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 4>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page4
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 4>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page4
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [66 <../Code/MatLab/DBF_foamcutter_general_shape.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_general_shape.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<../Code/MatLab/DBF_foamcutter_general_shape.pdf, id=840, page=5, 614.295pt x 7
+94.97pt>
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+ <use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 5>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page5
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 5>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page5
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_general_shape.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page 5>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_general_shape.pdf, page5
+ used on input line 836.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [67 <../Code/MatLab/DBF_foamcutter_general_shape.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_wing.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<../Code/MatLab/DBF_foamcutter_wing.pdf, id=845, 614.295pt x 794.97pt>
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf used on input l
+ine 840.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_wing.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf used on input l
+ine 840.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_wing.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_wing.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<../Code/MatLab/DBF_foamcutter_wing.pdf, id=848, page=1, 614.295pt x 794.97pt>
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page1 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page1 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [68]
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page1 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page1 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 1>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page1 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [69 <../Code/MatLab/DBF_foamcutter_wing.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_wing.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<../Code/MatLab/DBF_foamcutter_wing.pdf, id=866, page=2, 614.295pt x 794.97pt>
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 2>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page2 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 2>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page2 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 2>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page2 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [70 <../Code/MatLab/DBF_foamcutter_wing.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_wing.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<../Code/MatLab/DBF_foamcutter_wing.pdf, id=871, page=3, 614.295pt x 794.97pt>
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 3>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page3 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 3>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page3 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 3>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page3 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [71 <../Code/MatLab/DBF_foamcutter_wing.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../Code/MatLab/DBF_foamcutter_wing.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<../Code/MatLab/DBF_foamcutter_wing.pdf, id=876, page=4, 614.295pt x 794.97pt>
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 4>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page4 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 4>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page4 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Code/MatLab/DBF_foamcutter_wing.pdf Graphic file (type pdf)
+
+<use ../Code/MatLab/DBF_foamcutter_wing.pdf, page 4>
+Package pdftex.def Info: ../Code/MatLab/DBF_foamcutter_wing.pdf, page4 used on 
+input line 840.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [72 <../Code/MatLab/DBF_foamcutter_wing.pdf>]
+Appendix C.
+[73
+
+]
+Appendix D.
+<../Parts/Part_List.pdf, id=886, 794.96957pt x 614.29512pt>
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+
+<use ../Parts/Part_List.pdf>
+Package pdftex.def Info: ../Parts/Part_List.pdf used on input line 851.
+(pdftex.def)             Requested size: 794.96764pt x 614.29361pt.
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+ <use ../Parts/Part_List.pdf>
+Package pdftex.def Info: ../Parts/Part_List.pdf used on input line 851.
+(pdftex.def)             Requested size: 794.96764pt x 614.29361pt.
+
+<../Parts/Part_List.pdf, id=889, page=1, 794.96957pt x 614.29512pt>
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+
+<use ../Parts/Part_List.pdf, page 1>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page1 used on input line 851.
+(pdftex.def)             Requested size: 794.96764pt x 614.29361pt.
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+ <use ../Parts/Part_List.pdf, page 1>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page1 used on input line 851.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+
+[74
+
+]
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+ <use ../Parts/Part_List.pdf, page 1>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page1 used on input line 851.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+ <use ../Parts/Part_List.pdf, page 1>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page1 used on input line 851.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+
+<use ../Parts/Part_List.pdf, page 1>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page1 used on input line 851.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+ [75 <../Parts/Part_List.pdf>]
+<../Parts/Part_List.pdf, id=911, page=2, 794.96957pt x 614.29512pt>
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+
+<use ../Parts/Part_List.pdf, page 2>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page2 used on input line 851.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+ <use ../Parts/Part_List.pdf, page 2>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page2 used on input line 851.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Part_List.pdf Graphic file (type pdf)
+
+<use ../Parts/Part_List.pdf, page 2>
+Package pdftex.def Info: ../Parts/Part_List.pdf, page2 used on input line 851.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+ [76 <../Parts/Part_List.pdf>]
+Appendix E.
+<../Parts/Purchase_History.pdf, id=916, 794.96957pt x 614.29512pt>
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf used on input line 855.
+(pdftex.def)             Requested size: 794.96764pt x 614.29361pt.
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+ <use ../Parts/Purchase_History.pdf>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf used on input line 855.
+(pdftex.def)             Requested size: 794.96764pt x 614.29361pt.
+
+<../Parts/Purchase_History.pdf, id=919, page=1, 794.96957pt x 614.29512pt>
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 1>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page1 used on input lin
+e 855.
+(pdftex.def)             Requested size: 794.96764pt x 614.29361pt.
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 1>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page1 used on input lin
+e 855.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+ [77
+
+]
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 1>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page1 used on input lin
+e 855.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 1>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page1 used on input lin
+e 855.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 1>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page1 used on input lin
+e 855.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+ [78 <../Parts/Purchase_History.pdf>] <../Parts/Purchase_History.pdf, id=940, p
+age=2, 794.96957pt x 614.29512pt>
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 2>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page2 used on input lin
+e 855.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 2>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page2 used on input lin
+e 855.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+File: ../Parts/Purchase_History.pdf Graphic file (type pdf)
+
+<use ../Parts/Purchase_History.pdf, page 2>
+Package pdftex.def Info: ../Parts/Purchase_History.pdf, page2 used on input lin
+e 855.
+(pdftex.def)             Requested size: 795.34366pt x 614.58418pt.
+ [79 <../Parts/Purchase_History.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 860.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 860.
  ("FoamCutter Manual.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 860.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 860.
 Package rerunfilecheck Info: File `"FoamCutter Manual".out' has not changed.
-(rerunfilecheck)             Checksum: C65F662F4A24C514C4530E94E25EACF3;783.
+(rerunfilecheck)             Checksum: 7C5E01810265530F091EAD4CE868C44C;2602.
  ) 
 Here is how much of TeX's memory you used:
- 30987 strings out of 493335
- 598913 string characters out of 3139260
- 651631 words of memory out of 3000000
- 33959 multiletter control sequences out of 15000+200000
- 12992 words of font info for 50 fonts, out of 3000000 for 9000
+ 31738 strings out of 493335
+ 612114 string characters out of 3139260
+ 655317 words of memory out of 3000000
+ 34448 multiletter control sequences out of 15000+200000
+ 20473 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,9n,79p,10415b,1031s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "FoamCutter Manual.pdf" (17 pages, 5212951 bytes).
+ 54i,18n,79p,10415b,983s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfbx2488.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb
+>
+Output written on "FoamCutter Manual.pdf" (80 pages, 45029603 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1034 PDF objects out of 1200 (max. 8388607)
+ 276 named destinations out of 1000 (max. 500000)
+ 822 words of extra memory for PDF output out of 10000 (max. 10000000)
 

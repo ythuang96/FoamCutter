@@ -1,12 +1,38 @@
-\BOOKMARK [0][-]{chapter.1}{Preparations}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Laptop Setup}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{PuTTY Setup}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{WinSCP Setup}{section.1.1}% 4
-\BOOKMARK [1][-]{section.1.2}{G-Code Generation}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.2.1}{G-Code for Wing}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.2}{G-Code for General Shapes}{section.1.2}% 7
-\BOOKMARK [1][-]{section.1.3}{FoamCutter Setup}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.3.1}{Connecting the two Side Panels}{section.1.3}% 9
-\BOOKMARK [2][-]{subsection.1.3.2}{Installing the Work Panel}{section.1.3}% 10
-\BOOKMARK [0][-]{section*.23}{Appendices}{}% 11
-\BOOKMARK [0][-]{Appendix.a.A}{Executive Summary}{}% 12
+\BOOKMARK [0][-]{chapter*.1}{Preface}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Preparations}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Laptop Setup}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.1}{PuTTY Setup}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.2}{WinSCP Setup}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Assemble the Foamcutter}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Connect the two Side Frames}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Connect two Molex Connector}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.3}{Install the Work Panel}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.4}{Install the Wire}{section.1.2}% 10
+\BOOKMARK [1][-]{section.1.3}{Foamcutter Software Setup}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.3.1}{Connect to the Pi}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.2}{Calibrate Wire Origin}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.3}{Install the Foamcutter Software}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.4}{Update the Foamcutter Software}{section.1.3}% 15
+\BOOKMARK [1][-]{section.1.4}{G-Code Generation}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.4.1}{G-Code for Wing}{section.1.4}% 17
+\BOOKMARK [2][-]{subsection.1.4.2}{G-Code for General Shapes}{section.1.4}% 18
+\BOOKMARK [0][-]{chapter.2}{Operate the FoamCutter}{}% 19
+\BOOKMARK [1][-]{section.2.1}{Switches}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.2}{Start a Cut}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Secure the Foam}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.4}{End a Cut}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Raspberry Pi Setup}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Install Raspbian on the Raspberry Pi}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{Install WiringPi on the Raspberry Pi}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{Making the Pi into a Wireless Hotspot}{chapter.3}% 27
+\BOOKMARK [0][-]{section*.44}{Appendices}{}% 28
+\BOOKMARK [0][-]{Appendix.a.A}{C Code for the Foamcutter Program}{}% 29
+\BOOKMARK [1][-]{section.a.A.1}{foamcutter.c}{Appendix.a.A}% 30
+\BOOKMARK [1][-]{section.a.A.2}{foamcutter\137setup.h}{Appendix.a.A}% 31
+\BOOKMARK [0][-]{Appendix.a.B}{MatLab Code for G-code Generation}{}% 32
+\BOOKMARK [1][-]{section.a.B.1}{DBF\137foamcutter\137general\137shape.m}{Appendix.a.B}% 33
+\BOOKMARK [1][-]{section.a.B.2}{DBF\137foamcutter\137wing.m}{Appendix.a.B}% 34
+\BOOKMARK [0][-]{Appendix.a.C}{Basic Linux Guide}{}% 35
+\BOOKMARK [1][-]{section.a.C.1}{File System}{Appendix.a.C}% 36
+\BOOKMARK [0][-]{Appendix.a.D}{Part List}{}% 37
+\BOOKMARK [0][-]{Appendix.a.E}{Purchase History}{}% 38
