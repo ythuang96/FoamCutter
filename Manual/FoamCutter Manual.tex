@@ -68,7 +68,7 @@
 
 \chapter*{Preface}
 \addcontentsline{toc}{chapter}{Preface}
-\textbf{Before operating the foamcutter, please read this manual carefully to avoid injury and damage of the equipment. All content in the text boxes are extremely important and should be given extra attention.} \\ 
+\textbf{Before operating the foamcutter, please read this manual carefully to avoid injuries and damages to the equipment. All content in the text boxes are extremely important and should be given extra attention.} \\ 
 
 This foamcutter project was completed with funds from University of California San Diego Design/Build/Fly, and is intended to make the manufacturing process of composite planes easier. \\
 
@@ -76,8 +76,12 @@ All SolidWorks files, C code, MatLab scripts and operation manual are available 
 
 This project was an improvement on the foamcutter design by Derek Ung and David Cruz. Special thanks to Dr. Mark Anderson, UCSD MAE department for support of the project. And thanks to Geo Lopez for his help during the project.\\
 
+\newpage
 \begin{figure} [H]
-	\includegraphics[width = 0.65\linewidth]{./Figures/overview.jpg}
+	\includegraphics[width = 0.9\linewidth]{./Figures/overview.jpg}
+\end{figure}
+\begin{figure} [H]
+	\includegraphics[width = 0.9\linewidth]{./Figures/SW.png}
 \end{figure}
 
 \newpage
@@ -88,7 +92,7 @@ This project was an improvement on the foamcutter design by Derek Ung and David 
 \section{Laptop Setup} 
 \label{sec:laptop}
 
-The foamcutter is controlled by a Raspberry Pi 3 B+. In order to communicate with the Pi, a Windows laptop has to install \textbf{PuTTY} (or similar) to enable secure shell (SSH) connection to the Pi, and \textbf{WinSCP} (or similar) for graphical file management. A Linux laptop have SSH capability built in, therefore, no software required.
+The foamcutter is controlled by a Raspberry Pi 3 B+. In order to communicate with the Pi, a Windows laptop has to install \textbf{PuTTY} (or similar) to enable secure shell (SSH) connection to the Pi, and \textbf{WinSCP} (or similar) for graphical file management on the Pi. A Linux laptop have SSH capability built in, therefore, no software required. \\
 
 \begin{tcolorbox}
 	{\large
@@ -230,7 +234,7 @@ The work panel is connected to the two side frames at the four corners of the pa
 	\caption{Work Panel Thumb Screws}
 	\label{fig:panel}
 \end{figure}
-The work panel should be oriented so that the guiding block, which is a long piece of PVC screws to the work panel (pointed by the red arrows in the fig~\ref{fig:panel2} below) should be at the closer side relative to the two horizontal motors (marked by the red circle in the fig~\ref{fig:panel2} below).
+The work panel should be oriented so that the guiding block, which is a long piece of PVC screwed to the work panel (pointed by the red arrows in the fig~\ref{fig:panel2} below) should be at the closer side relative to the two horizontal motors (marked by the red circle in the fig~\ref{fig:panel2} below).
 \begin{figure} [H]
 	\includegraphics[width = 0.8\linewidth]{./Figures/panel.jpg}
 	\caption{Work Panel Guiding Block Orientation }
@@ -354,6 +358,7 @@ The wire is held to tension of approximately 10 lbs with a constant force spring
 \begin{enumerate}[noitemsep,topsep=0pt]
 	\item Perform the Laptop setup guide in Chapter 1 Section~\ref{sec:laptop} if not already completed.
 	\item Plug in the power cord to the foamcutter to power on the Pi.
+	\item Connect to the WiFi hotspot named \textbf{``foamcutter''} with password \textbf{``ucsdaiaadbf''}.
 	\item SSH into the Pi by opening PuTTY and double click on the saved session named \textbf{``foamcutter''}. Enter the user name \textbf{``pi''} then password \textbf{``ucsdaiaadbf''}.
 	\item Open WinSCP, a window similar to fig~\ref{fig:winscp} below should show up. The left hand side are folders and files on your computer, while the right hand side is files on the Pi. Make sure the right hand side is in the folder \textbf{``/home/pi''}, if not, navigate to it. To create new folder on the Pi, use the \textbf{``new directory''} button. To upload files from your computer to the Pi, simply drag the file/folder from the left half to the right half. 
 	\begin{figure} [H]
@@ -365,7 +370,7 @@ The wire is held to tension of approximately 10 lbs with a constant force spring
 
 \subsection{Calibrate Wire Origin}
 \label{sec:calibration}
-The 4 axes of the foamcutter each have one limit switch installed. Upon starting of the program, the foamcutter moves all axes towards the negative direction then moves the 4 axes each a distance specified in the setting file to reach the Origin. \textbf{This calibration only needs to be performed once in a while to improve accuracy.} Please follow the  steps to calibrate the wire origin:
+The 4 axes of the foamcutter each have one limit switch installed. Upon starting of the program, the foamcutter moves all axes towards the negative direction until hitting the limit switches. Then the foamcutter moves the 4 axes each a distance specified in the setting file to reach the Origin. \textbf{This calibration only needs to be performed once in a while to improve accuracy.} Please follow the  steps to calibrate the wire origin:
 
 \begin{enumerate}[noitemsep,topsep=0pt]
 \item Download the \textbf{``User Package.zip''} from \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}, and unzip it.
@@ -380,13 +385,13 @@ The 4 axes of the foamcutter each have one limit switch installed. Upon starting
 \end{itemize}
 This will launch the foamcutter program.
 \item When the program reads \textbf{``I see the system is not homed yet, please press ENTER to home the system:''} press the Enter key. The foamcutter will move all 4 axes towards the negative direction until touching the limit switch. Then all 4 axes will move towards the positive direction to the origin.
-\item Place a Aluminum block on the work panel against the work panel guiding block, and observe from top down as shown in fig~\ref{fig:zero1} below. Both the far left and far right of the wire should sit right against the aluminum block, remember the amount that needs to be adjusted. 
+\item Place a Aluminum block on the work panel against the work panel guiding block, and observe from top down as shown in fig~\ref{fig:zero1} below. Both the far left and far right of the wire should sit right against the aluminum block, measure the amount that needs to be adjusted in millimeters. 
 \begin{figure} [H]
 \includegraphics[width = 0.8\linewidth]{./Figures/zero_wire_1.jpg}
 	\caption{Calibrate Wire Origin in the Horizontal Direction}
 	\label{fig:zero1}
 \end{figure}
-\item Again, place a Aluminum block on the work panel against the work panel guiding block, but observe horizontally as shown in fig~\ref{fig:zero2} below. Both the far left and the far right of the wire should sit at the same height. The height could be arbitrary, but should be higher than the thumb screws on the work panel. Again, remember the amount that needs to be adjusted.
+\item Again, place a Aluminum block on the work panel against the work panel guiding block, but observe horizontally as shown in fig~\ref{fig:zero2} below. Both the far left and the far right of the wire should sit at the same height. The height could be arbitrary, but should be higher than the thumb screws on the work panel. Again, measure the amount that needs to be adjusted in millimeters.
 \begin{figure} [H]
 	\includegraphics[width = 0.8\linewidth]{./Figures/zero_wire_2.jpg}
 	\caption{Calibrate Wire Origin in the Vertical Direction}
@@ -399,7 +404,7 @@ This will launch the foamcutter program.
 \textbf{\#define LIM2ORIGIN\_RX -3550}\\
 \textbf{\#define LIM2ORIGIN\_LY -2500}\\
 \textbf{\#define LIM2ORIGIN\_RY -2400}\\
-and adjust the four numbers: if wish to move an axis 1mm further away (closer) from the limit switch, subtract (add) 157 from the number corresponding to the axis. \textbf{All 4 numbers must be negative integers, no decimal, and no equations (please calculated the number yourself and replace the original number).}
+and adjust the four numbers: if wish to move an axis 1mm further away (or closer) from the limit switch, subtract (or add) 157 from the number corresponding to the axis. \textbf{All 4 numbers must be negative integers, no decimal, and no equations (please calculated the number yourself and replace the original number).}
 \item Save the file then repeat the process from step 4 to adjust the 4 numbers until the wire sits at the desired location. \textbf{Then save the 4 numbers on your computer.}
 \end{enumerate}
 
@@ -440,7 +445,7 @@ and change the 4 numbers to the previously calibrated parameters. Then proceed t
 \subsection{G-Code for Wing}
 \begin{enumerate}[noitemsep,topsep=0pt] 
 	\item Download the needed airfoil coordinates at \\ \href{http://m-selig.ae.illinois.edu/ads/coord_database.html#S}{http://m-selig.ae.illinois.edu/ads/coord\_database.html\#S}
-	\item Place the needed airfoil coordinate files in the same folder as the MatLab code \\ ``DBF\_foamcutter\_wing.m''.
+	\item Place the needed airfoil coordinate files in the same folder as the MatLab code \\ \textbf{``DBF\_foamcutter\_wing.m''} which is provided in the \textbf{``User Package.zip''} from \\ \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}.
 	\item Enter the parameters into the MatLab script and run the script. A figure tracing the the motion of the two ends of the wire should show up, and the G-code should be saved in the same folder.
 \end{enumerate}
 
@@ -549,7 +554,7 @@ Note that the root and tip cord length differed a lot, and the span is significa
 		\caption{Eattext Page 1}
 		\label{fig:cad4}
 	\end{figure}
-	\item Browse for the extraction templates, select the template with or without arc depending on the drawing. (The templates should be included with the manual package)
+	\item Browse for the extraction templates, select the template with or without arc depending on the drawing. (The templates are included in the \textbf{``User Package.zip''} from \\ \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter})
 	\begin{figure} [H]
 		\includegraphics[width = 0.6\linewidth]{./Figures/general_shape/cad5.png}
 		\caption{Browse for Data Extraction Templates}
@@ -577,7 +582,7 @@ Note that the root and tip cord length differed a lot, and the span is significa
 		\caption{Eattext Page 6}
 	\end{figure}
 	
-	\item Put the .csv file from AutoCAD into the same folder as the MatLAB scritpt ``DBF\_foamcutter\_general\_shape.m'' and run the MatLAB code. Follow the prompts, and the G-code should be ready.
+	\item Put the .csv file from AutoCAD into the same folder as the MatLAB script \\ \textbf{``DBF\_foamcutter\_general\_shape.m''} (provided in the \textbf{``User Package.zip''} from \\ \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}) and run the MatLAB code. Follow the prompts, and the G-code should be ready.
 	
 	
 \end{enumerate}
@@ -625,7 +630,7 @@ Please follow the steps below to operate the foamcutter:
 	\item In PuTTY, run: \textbf{sudo foamcutter}
 	\item The software will first check the Pause switch status and will prompt to toggle the switch down if needed.
 	\item The software will then ask to perform the homing process. Double check that the Molex connectors are connected, then press enter to perform homing. 
-	\item The software will then enter the main menu, follow the prompts to select desired options to perform cut.
+	\item The software will then enter the main menu, follow the prompts to select desired options to perform cuts or move the wire.
 \end{enumerate}
 
 \section{Secure the Foam}
@@ -638,7 +643,7 @@ The foam can be secured with acrylic plates with thumb screws on the three sides
 		\caption{Secure the Foam Step 2}
 		\label{fig:foam1}
 	\end{figure}
-	\item Secure the first plate with 3 thumb screws. Do not over tighten the thumbscrews, or the threads on the work panel might be destroyed.
+	\item Secure the first plate with 3 thumb screws. \textbf{Do not over tighten the thumbscrews, or the threads on the work panel might be destroyed.}
 	\item Place the foam on the work panel with one side firmly against the guiding block and another side firmly against the first acrylic plate.
 	\item Place a second acrylic plate firmly against the foam and secure with 3 thumb screws as shown in fig~\ref{fig:foam2} below.
 	\begin{figure} [H]
@@ -673,6 +678,15 @@ To the cutting operation half way through a G-code:
 	\item Or hold the Exit switch for more than 3 seconds. This will stop the cut and exit the program, but will also immediately shutdown the Pi.
 \end{itemize}
 
+To exit the program after the cut is finished, apart form the two options listed above, the user can also select the menu options to return to the main menu, and select the third option to exit the program. It will also ask if desired to shutdown the Pi immediately.
+
+\section{Cleaning Up}
+After the Pi is properly turned off by:
+\begin{itemize}[noitemsep,topsep=0pt]
+	\item Press Enter when seeing \textbf{``If you would like to shutdown the Pi now. Please press ENTER. Otherwise, press 'n' then press ENTER:''} when exiting the foamcutter software.
+	\item Or run \textbf{``sudo shutdown now''} in PuTTY.
+\end{itemize}
+the green LED should flash a couple of times indicating the operating system is reading/writing to the SD card. After the green LED turns off, unplug the power cord and wrap it around the acrylic electronics box. Also remember to turn off the power supply for the hot wire and wrap the power cables for the hot wire around the two screws. 
 
 
 \newpage
@@ -694,7 +708,7 @@ Raspbian is one of the recommended operating system for the Raspberry Pi. The fo
 	\item Plug in the SD card into a laptop and run Etcher.
 	\item In Etcher, select the raspbian image just downloaded, then select the SD card. Lastly, click flash.
 	\item Wait for flash to complete, the SD card should now have two partition with one named ``boot''.
-	\item Enable SSH on the Pi by creating a file name ``ssh'' without any extension in the partition named ``boot'' on the SD card.
+	\item Enable SSH on the Pi by creating a file name ``ssh'' \textbf{without any extension} in the partition named ``boot'' on the SD card.
 	\item Unplug the SD card from the laptop and plug into the Pi. Connect a Ethernet cable from the Pi to same router your laptop is currently connected to.
 	\item Connect power to the Pi.
 	\item SSH into the Pi by opening up PuTTY and create a new session with host name: \textbf{``raspberrypi.local''}. Note on using PuTTY: to copy text from PuTTY, simply select the text, do not press ``Control + C''. To paste text to PuTTY, simply right click mouse, do not press ``Control + V''.
@@ -839,12 +853,14 @@ The MatLab code for generating G-code for general shape, \\ \textbf{DBF\_foamcut
 The MatLab code for generating G-code for wing, \textbf{DBF\_foamcutter\_wing.m} is attached below. Last updated: 8/23/2018.
 \includepdf[pages=-, pagecommand={},landscape=false]{../Code/MatLab/DBF_foamcutter_wing.pdf}
 
-\chapter{Basic Linux Guide}
-The Raspberry Pi is a Linux based microcomputer, this chapter briefly explains the basic Linux file system and commonly used commands.
+\chapter{Drawings}
+The complete SolidWorks drawings can be found at \\ \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}. The following is the complete assembly in SolidWorks:
+ \begin{figure} [H]
+ 	\includegraphics[width = 0.9\linewidth]{./Figures/SW.png}
+ \end{figure}
 
-\section{File System}
-
-
+Drawings attached below are all aluminum pieces that required machining. But the drawings are not drawn in compliance with engineering standards and therefore should only be used as a reference when machining yourself. 
+\includepdf[pages=-, pagecommand={},landscape=true]{1.pdf}
 
 \chapter{Part List}
 The parts used for this project are listed below.

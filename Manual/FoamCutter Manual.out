@@ -21,18 +21,18 @@
 \BOOKMARK [1][-]{section.2.2}{Start a Cut}{chapter.2}% 21
 \BOOKMARK [1][-]{section.2.3}{Secure the Foam}{chapter.2}% 22
 \BOOKMARK [1][-]{section.2.4}{End a Cut}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{Raspberry Pi Setup}{}% 24
-\BOOKMARK [1][-]{section.3.1}{Install Raspbian on the Raspberry Pi}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.2}{Install WiringPi on the Raspberry Pi}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.3}{Making the Pi into a Wireless Hotspot}{chapter.3}% 27
-\BOOKMARK [0][-]{section*.44}{Appendices}{}% 28
-\BOOKMARK [0][-]{Appendix.a.A}{C Code for the Foamcutter Program}{}% 29
-\BOOKMARK [1][-]{section.a.A.1}{foamcutter.c}{Appendix.a.A}% 30
-\BOOKMARK [1][-]{section.a.A.2}{foamcutter\137setup.h}{Appendix.a.A}% 31
-\BOOKMARK [0][-]{Appendix.a.B}{MatLab Code for G-code Generation}{}% 32
-\BOOKMARK [1][-]{section.a.B.1}{DBF\137foamcutter\137general\137shape.m}{Appendix.a.B}% 33
-\BOOKMARK [1][-]{section.a.B.2}{DBF\137foamcutter\137wing.m}{Appendix.a.B}% 34
-\BOOKMARK [0][-]{Appendix.a.C}{Basic Linux Guide}{}% 35
-\BOOKMARK [1][-]{section.a.C.1}{File System}{Appendix.a.C}% 36
+\BOOKMARK [1][-]{section.2.5}{Cleaning Up}{chapter.2}% 24
+\BOOKMARK [0][-]{chapter.3}{Raspberry Pi Setup}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Install Raspbian on the Raspberry Pi}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.2}{Install WiringPi on the Raspberry Pi}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.3}{Making the Pi into a Wireless Hotspot}{chapter.3}% 28
+\BOOKMARK [0][-]{section*.45}{Appendices}{}% 29
+\BOOKMARK [0][-]{Appendix.a.A}{C Code for the Foamcutter Program}{}% 30
+\BOOKMARK [1][-]{section.a.A.1}{foamcutter.c}{Appendix.a.A}% 31
+\BOOKMARK [1][-]{section.a.A.2}{foamcutter\137setup.h}{Appendix.a.A}% 32
+\BOOKMARK [0][-]{Appendix.a.B}{MatLab Code for G-code Generation}{}% 33
+\BOOKMARK [1][-]{section.a.B.1}{DBF\137foamcutter\137general\137shape.m}{Appendix.a.B}% 34
+\BOOKMARK [1][-]{section.a.B.2}{DBF\137foamcutter\137wing.m}{Appendix.a.B}% 35
+\BOOKMARK [0][-]{Appendix.a.C}{Drawings}{}% 36
 \BOOKMARK [0][-]{Appendix.a.D}{Part List}{}% 37
 \BOOKMARK [0][-]{Appendix.a.E}{Purchase History}{}% 38

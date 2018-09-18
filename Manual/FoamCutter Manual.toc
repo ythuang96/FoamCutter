@@ -1,39 +1,39 @@
 \select@language {english}
 \contentsline {chapter}{Preface}{1}{chapter*.1}
-\contentsline {chapter}{\numberline {1}Preparations}{4}{chapter.1}
-\contentsline {section}{\numberline {1}Laptop Setup}{4}{section.1.1}
-\contentsline {subsection}{\numberline {1.1}PuTTY Setup}{4}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.2}WinSCP Setup}{6}{subsection.1.1.2}
-\contentsline {section}{\numberline {2}Assemble the Foamcutter}{9}{section.1.2}
-\contentsline {subsection}{\numberline {2.1}Connect the two Side Frames}{10}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {2.2}Connect two Molex Connector}{11}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {2.3}Install the Work Panel}{11}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {2.4}Install the Wire}{14}{subsection.1.2.4}
-\contentsline {section}{\numberline {3}Foamcutter Software Setup}{17}{section.1.3}
-\contentsline {subsection}{\numberline {3.1}Connect to the Pi}{17}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {3.2}Calibrate Wire Origin}{18}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {3.3}Install the Foamcutter Software}{20}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {3.4}Update the Foamcutter Software}{21}{subsection.1.3.4}
-\contentsline {section}{\numberline {4}G-Code Generation}{21}{section.1.4}
-\contentsline {subsection}{\numberline {4.1}G-Code for Wing}{21}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {4.2}G-Code for General Shapes}{24}{subsection.1.4.2}
-\contentsline {chapter}{\numberline {2}Operate the FoamCutter}{32}{chapter.2}
-\contentsline {section}{\numberline {1}Switches}{32}{section.2.1}
-\contentsline {section}{\numberline {2}Start a Cut}{33}{section.2.2}
-\contentsline {section}{\numberline {3}Secure the Foam}{33}{section.2.3}
-\contentsline {section}{\numberline {4}End a Cut}{36}{section.2.4}
-\contentsline {chapter}{\numberline {3}Raspberry Pi Setup}{38}{chapter.3}
-\contentsline {section}{\numberline {1}Install Raspbian on the Raspberry Pi}{38}{section.3.1}
-\contentsline {section}{\numberline {2}Install WiringPi on the Raspberry Pi}{39}{section.3.2}
-\contentsline {section}{\numberline {3}Making the Pi into a Wireless Hotspot}{40}{section.3.3}
-\contentsline {chapter}{Appendices}{42}{section*.44}
-\contentsline {chapter}{\numberline {A}C Code for the Foamcutter Program}{43}{Appendix.a.A}
-\contentsline {section}{\numberline {1}foamcutter.c}{43}{section.a.A.1}
-\contentsline {section}{\numberline {2}foamcutter\_setup.h}{60}{section.a.A.2}
-\contentsline {chapter}{\numberline {B}MatLab Code for G-code Generation}{62}{Appendix.a.B}
-\contentsline {section}{\numberline {1}DBF\_foamcutter\_general\_shape.m}{62}{section.a.B.1}
-\contentsline {section}{\numberline {2}DBF\_foamcutter\_wing.m}{68}{section.a.B.2}
-\contentsline {chapter}{\numberline {C}Basic Linux Guide}{73}{Appendix.a.C}
-\contentsline {section}{\numberline {1}File System}{73}{section.a.C.1}
-\contentsline {chapter}{\numberline {D}Part List}{74}{Appendix.a.D}
-\contentsline {chapter}{\numberline {E}Purchase History}{77}{Appendix.a.E}
+\contentsline {chapter}{\numberline {1}Preparations}{5}{chapter.1}
+\contentsline {section}{\numberline {1}Laptop Setup}{5}{section.1.1}
+\contentsline {subsection}{\numberline {1.1}PuTTY Setup}{5}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}WinSCP Setup}{7}{subsection.1.1.2}
+\contentsline {section}{\numberline {2}Assemble the Foamcutter}{10}{section.1.2}
+\contentsline {subsection}{\numberline {2.1}Connect the two Side Frames}{11}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {2.2}Connect two Molex Connector}{12}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.3}Install the Work Panel}{12}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {2.4}Install the Wire}{15}{subsection.1.2.4}
+\contentsline {section}{\numberline {3}Foamcutter Software Setup}{18}{section.1.3}
+\contentsline {subsection}{\numberline {3.1}Connect to the Pi}{18}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {3.2}Calibrate Wire Origin}{19}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {3.3}Install the Foamcutter Software}{21}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {3.4}Update the Foamcutter Software}{22}{subsection.1.3.4}
+\contentsline {section}{\numberline {4}G-Code Generation}{22}{section.1.4}
+\contentsline {subsection}{\numberline {4.1}G-Code for Wing}{22}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {4.2}G-Code for General Shapes}{25}{subsection.1.4.2}
+\contentsline {chapter}{\numberline {2}Operate the FoamCutter}{33}{chapter.2}
+\contentsline {section}{\numberline {1}Switches}{33}{section.2.1}
+\contentsline {section}{\numberline {2}Start a Cut}{34}{section.2.2}
+\contentsline {section}{\numberline {3}Secure the Foam}{34}{section.2.3}
+\contentsline {section}{\numberline {4}End a Cut}{37}{section.2.4}
+\contentsline {section}{\numberline {5}Cleaning Up}{38}{section.2.5}
+\contentsline {chapter}{\numberline {3}Raspberry Pi Setup}{39}{chapter.3}
+\contentsline {section}{\numberline {1}Install Raspbian on the Raspberry Pi}{39}{section.3.1}
+\contentsline {section}{\numberline {2}Install WiringPi on the Raspberry Pi}{40}{section.3.2}
+\contentsline {section}{\numberline {3}Making the Pi into a Wireless Hotspot}{41}{section.3.3}
+\contentsline {chapter}{Appendices}{43}{section*.45}
+\contentsline {chapter}{\numberline {A}C Code for the Foamcutter Program}{44}{Appendix.a.A}
+\contentsline {section}{\numberline {1}foamcutter.c}{44}{section.a.A.1}
+\contentsline {section}{\numberline {2}foamcutter\_setup.h}{61}{section.a.A.2}
+\contentsline {chapter}{\numberline {B}MatLab Code for G-code Generation}{63}{Appendix.a.B}
+\contentsline {section}{\numberline {1}DBF\_foamcutter\_general\_shape.m}{63}{section.a.B.1}
+\contentsline {section}{\numberline {2}DBF\_foamcutter\_wing.m}{69}{section.a.B.2}
+\contentsline {chapter}{\numberline {C}Drawings}{74}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Part List}{86}{Appendix.a.D}
+\contentsline {chapter}{\numberline {E}Purchase History}{89}{Appendix.a.E}
