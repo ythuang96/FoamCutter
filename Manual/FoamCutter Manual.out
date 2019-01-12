@@ -3,16 +3,16 @@
 \BOOKMARK [1][-]{section.1.1}{Laptop Setup}{chapter.1}% 3
 \BOOKMARK [2][-]{subsection.1.1.1}{PuTTY Setup}{section.1.1}% 4
 \BOOKMARK [2][-]{subsection.1.1.2}{WinSCP Setup}{section.1.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Assemble the Foamcutter}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.2.1}{Connect the two Side Frames}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.2}{Connect two Molex Connector}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.3}{Install the Work Panel}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.4}{Install the Wire}{section.1.2}% 10
-\BOOKMARK [1][-]{section.1.3}{Foamcutter Software Setup}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.3.1}{Connect to the Pi}{section.1.3}% 12
-\BOOKMARK [2][-]{subsection.1.3.2}{Calibrate Wire Origin}{section.1.3}% 13
-\BOOKMARK [2][-]{subsection.1.3.3}{Install the Foamcutter Software}{section.1.3}% 14
-\BOOKMARK [2][-]{subsection.1.3.4}{Update the Foamcutter Software}{section.1.3}% 15
+\BOOKMARK [2][-]{subsection.1.1.3}{Install Bonjour Print Service}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Assemble the Foamcutter}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{Connect the two Side Frames}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.2}{Connect two Molex Connector}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.3}{Install the Work Panel}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.4}{Install the Wire}{section.1.2}% 11
+\BOOKMARK [1][-]{section.1.3}{Foamcutter Software Setup}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.3.1}{Connect to the Pi}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.2}{Install/Update the Foamcutter Software and Calibrate Wire Origin}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.3}{Install/Update the Foamcutter Software Without Wire Calibration}{section.1.3}% 15
 \BOOKMARK [1][-]{section.1.4}{G-Code Generation}{chapter.1}% 16
 \BOOKMARK [2][-]{subsection.1.4.1}{G-Code for Wing}{section.1.4}% 17
 \BOOKMARK [2][-]{subsection.1.4.2}{G-Code for General Shapes}{section.1.4}% 18

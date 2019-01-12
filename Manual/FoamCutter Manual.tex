@@ -105,7 +105,7 @@ The foamcutter is controlled by a Raspberry Pi 3 B+. In order to communicate wit
 
 \noindent Please follow the following steps for install and setup of PuTTY:
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Download PuTTY at \href{https://www.putty.org/}{https://www.putty.org/} then install.
 	\item Launch PuTTY and a window similar to fig~\ref{fig:putty1} below should show up:
 	\begin{figure} [H]
@@ -132,7 +132,7 @@ The foamcutter is controlled by a Raspberry Pi 3 B+. In order to communicate wit
 
 \noindent Please follow the following steps for install and setup of WinSCP:
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Download WinSCP at \href{https://winscp.net/eng/download.php}{https://winscp.net/eng/download.php} then install.
 	\item Launch WinSCP and a window similar to fig~\ref{fig:winscp1} below should show up:
 	\begin{figure} [H]
@@ -153,6 +153,10 @@ The foamcutter is controlled by a Raspberry Pi 3 B+. In order to communicate wit
 		\label{fig:winscp3}
 	\end{figure}
 \end{enumerate}
+
+
+\subsection{Install Bonjour Print Service}
+Download and install Bonjour Print Service from \href{https://support.apple.com/kb/DL999?locale=en_US}, this will enable PuTTY to ssh into the pi with its hostname. 
 
 \newpage
 
@@ -246,7 +250,7 @@ To install the work panel, first slide the work panel into the 4 supporting rods
 \subsection{Install the Wire}
 The wire is held to tension of approximately 10 lbs with a constant force spring. To install the wire, follow the steps shown below.
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{.475\textwidth}
@@ -355,10 +359,10 @@ The wire is held to tension of approximately 10 lbs with a constant force spring
 
 \section{Foamcutter Software Setup}
 \subsection{Connect to the Pi}
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Perform the Laptop setup guide in Chapter 1 Section~\ref{sec:laptop} if not already completed.
 	\item Plug in the power cord to the foamcutter to power on the Pi.
-	\item Connect to the WiFi hotspot named \textbf{``foamcutter''} with password \textbf{``ucsdaiaadbf''} or connect to the ethernet port to the ethernet port of the laptop with a ethernet cable.
+	\item Connect to the WiFi hotspot named \textbf{``foamcutter''} with password \textbf{``ucsdaiaadbf''}.
 	\item SSH into the Pi by opening PuTTY and double click on the saved session named \textbf{``foamcutter''}. Enter the user name \textbf{``pi''} then password \textbf{``ucsdaiaadbf''}.
 	\item Open WinSCP, a window similar to fig~\ref{fig:winscp} below should show up. The left hand side are folders and files on your computer, while the right hand side is files on the Pi. Make sure the right hand side is in the folder \textbf{``/home/pi''}, if not, navigate to it. To create new folder on the Pi, use the \textbf{``new directory''} button. To upload files from your computer to the Pi, simply drag the file/folder from the left half to the right half. 
 	\begin{figure} [H]
@@ -368,15 +372,15 @@ The wire is held to tension of approximately 10 lbs with a constant force spring
 	\end{figure}
 \end{enumerate}
 
-\subsection{Calibrate Wire Origin}
+\subsection{Install/Update the Foamcutter Software and Calibrate Wire Origin}
 \label{sec:calibration}
 The 4 axes of the foamcutter each have one limit switch installed. Upon starting of the program, the foamcutter moves all axes towards the negative direction until hitting the limit switches. Then the foamcutter moves the 4 axes each a distance specified in the setting file to reach the Origin. \textbf{This calibration only needs to be performed once in a while to improve accuracy.} Please follow the  steps to calibrate the wire origin:
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 \item Download the \textbf{``User Package.zip''} from \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}, and unzip it.
-\item Create a new folder on the Pi called \textbf{``foamcutter''} in the directory of \textbf{``/home/pi''}. 
-\item Upload the files named \textbf{``foamcutter.c''}, \textbf{``foamcutter\_setup.h''} and \textbf{``Makefile''} from the \textbf{''User Package''} just downloaded into the \textbf{``foamcutter''} folder just created on the Pi.
-\item Open PuTTY and run the following commands line by line:
+\item In WinSCP, create a new folder on the Pi called \textbf{``foamcutter''} in the directory of \textbf{``/home/pi''}. 
+\item In WinSCP, upload the files named \textbf{``foamcutter.c''}, \textbf{``foamcutter\_setup.h''} and \textbf{``Makefile''} from the \textbf{''User Package''} just downloaded into the \textbf{``foamcutter''} folder just created on the Pi.
+\item In PuTTY, run the following commands line by line:
 \begin{itemize}[noitemsep,topsep=0pt]
 	\item \textbf{cd}
 	\item \textbf{cd foamcutter}
@@ -384,7 +388,7 @@ The 4 axes of the foamcutter each have one limit switch installed. Upon starting
 	\item \textbf{sudo ./foamcutter}
 \end{itemize}
 This will launch the foamcutter program.
-\item When the program reads \textbf{``I see the system is not homed yet, please press ENTER to home the system:''} press the Enter key. The foamcutter will move all 4 axes towards the negative direction until touching the limit switch. Then all 4 axes will move towards the positive direction to the origin.
+\item In PuTTY, when the program reads \textbf{``I see the system is not homed yet, please press ENTER to home the system:''} press the Enter key. The foamcutter will move all 4 axes towards the negative direction until touching the limit switch. Then all 4 axes will move towards the positive direction to the origin.
 \item Place a Aluminum block on the work panel against the work panel guiding block, and observe from top down as shown in fig~\ref{fig:zero1} below. Both the far left and far right of the wire should sit right against the aluminum block, measure the amount that needs to be adjusted in millimeters. 
 \begin{figure} [H]
 \includegraphics[width = 0.8\linewidth]{./Figures/zero_wire_1.jpg}
@@ -397,53 +401,52 @@ This will launch the foamcutter program.
 	\caption{Calibrate Wire Origin in the Vertical Direction}
 	\label{fig:zero2}
 \end{figure}
-\item Open WinSCP, navigate to \textbf{``/home/pi/foamcutter''} on the Pi (the right hand side of the WinSCP window), and double click on the file \textbf{``foamcutter\_setup.h''} to edit it. 
-\item Find the 5 lines that read as the following:\\
+\item In WinSCP, navigate to \textbf{``/home/pi/foamcutter''} on the Pi (the right hand side of the WinSCP window), and double click on the file \textbf{``foamcutter\_setup.h''} to edit it. 
+\item Find the 5 lines that read as the following:\\ \\
 \textbf{// position of limit switch relative to cutter origin}\\
 \textbf{\#define LIM2ORIGIN\_LX -4100}\\
 \textbf{\#define LIM2ORIGIN\_RX -3550}\\
 \textbf{\#define LIM2ORIGIN\_LY -2500}\\
-\textbf{\#define LIM2ORIGIN\_RY -2400}\\
+\textbf{\#define LIM2ORIGIN\_RY -2400}\\ \\
 and adjust the four numbers: if wish to move an axis 1mm further away (or closer) from the limit switch, subtract (or add) 157 from the number corresponding to the axis. \textbf{All 4 numbers must be negative integers, no decimal, and no equations (please calculated the number yourself and replace the original number).}
 \item Save the file then repeat the process from step 4 to adjust the 4 numbers until the wire sits at the desired location. \textbf{Then save the 4 numbers on your computer.}
-\end{enumerate}
-
-\subsection{Install the Foamcutter Software}
-\label{sec:install}
-\begin{enumerate}[noitemsep,topsep=0pt]
-\item Perform the Wire Origin Calibration guide in Chapter 1 Section~\ref{sec:calibration} if not already completed.
-\item Open PuTTY and run the following commands line by line:
+\item In PuTTY, run the following commands line by line:
 \begin{itemize}[noitemsep,topsep=0pt]
 	\item \textbf{cd}
 	\item \textbf{cd foamcutter}
 	\item \textbf{sudo make install foamcutter}
 \end{itemize}
-\item Delete the folder \textbf{``/home/pi/foamcutter''} on the Pi.
-\item You can now use \textbf{sudo foamcutter} to run the foamcutter program.
+\item In WinSCP, delete the folder \textbf{``/home/pi/foamcutter''} on the Pi.
+\item You can now use \textbf{sudo foamcutter} in PuTTY to run the foamcutter program.
 \end{enumerate}
 
-\subsection{Update the Foamcutter Software}
-\begin{enumerate}[noitemsep,topsep=0pt]
-\item If a new version is available, download the \textbf{``User Package.zip''} from \\ \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}, and unzip it.
-\item Create a new folder on the Pi called \textbf{``foamcutter''} in the directory of \textbf{``/home/pi''}. 
-\item Upload the files named \textbf{``foamcutter.c''}, \textbf{``foamcutter\_setup.h''} and \textbf{``Makefile''} from the \textbf{''User Package''} just downloaded into the \textbf{``foamcutter''} folder just created on the Pi.
-\item \begin{itemize}[noitemsep,topsep=0pt]
-	\item If wish to perform Wire Origin Calibration, proceed to Chapter 1 Section~\ref{sec:calibration} step 4 to step 10. Then continue to the steps in Chapter 1 Section~\ref{sec:install}. 
-\item If wish to use the previously calibrated parameters, open WinSCP, edit the file \textbf{``/home/pi/foamcutter\_setup.h''}, find the 5 lines that read as the following:\\
+\subsection{Install/Update the Foamcutter Software Without Wire Calibration}
+\label{sec:install}
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
+\item Download the \textbf{``User Package.zip''} from \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}, and unzip it.
+\item In WinSCP, create a new folder on the Pi called \textbf{``foamcutter''} in the directory of \textbf{``/home/pi''}. 
+\item In WinSCP, upload the files named \textbf{``foamcutter.c''}, \textbf{``foamcutter\_setup.h''} and \textbf{``Makefile''} from the \textbf{''User Package''} just downloaded into the \textbf{``foamcutter''} folder just created on the Pi.
+\item In WinSCP, edit the file \textbf{``/home/pi/foamcutter\_setup.h''}, find the 5 lines that read as the following:\\ \\
 \textbf{// position of limit switch relative to cutter origin}\\
 \textbf{\#define LIM2ORIGIN\_LX -4100}\\
 \textbf{\#define LIM2ORIGIN\_RX -3550}\\
 \textbf{\#define LIM2ORIGIN\_LY -2500}\\
-\textbf{\#define LIM2ORIGIN\_RY -2400}\\
-and change the 4 numbers to the previously calibrated parameters. Then proceed to Chapter 1 Section~\ref{sec:install} step 2 to step 4.
+\textbf{\#define LIM2ORIGIN\_RY -2400}\\ \\
+and change the 4 numbers to the previously calibrated parameters. (If you do not have previous calibration parameters, it is recommended to follow Section~\ref{sec:calibration} to install and calibrate the origin.)
+\item In PuTTY, run the following commands line by line:
+\begin{itemize}[noitemsep,topsep=0pt]
+	\item \textbf{cd}
+	\item \textbf{cd foamcutter}
+	\item \textbf{sudo make install foamcutter}
 \end{itemize}
+\item In WinSCP, delete the folder \textbf{``/home/pi/foamcutter''} on the Pi.
+\item You can now use \textbf{sudo foamcutter} in PuTTY to run the foamcutter program.
 \end{enumerate}
-
 
 \section{G-Code Generation}
 \label{sec:gcode}
 \subsection{G-Code for Wing}
-\begin{enumerate}[noitemsep,topsep=0pt] 
+\begin{enumerate}[itemsep = 5pt,topsep=0pt] 
 	\item Download the needed airfoil coordinates at \\ \href{http://m-selig.ae.illinois.edu/ads/coord_database.html#S}{http://m-selig.ae.illinois.edu/ads/coord\_database.html\#S}
 	\item Place the needed airfoil coordinate files in the same folder as the MatLab code \\ \textbf{``DBF\_foamcutter\_wing.m''} which is provided in the \textbf{``User Package.zip''} from \\ \href{https://github.com/ythuang96/FoamCutter}{https://github.com/ythuang96/FoamCutter}.
 	\item Enter the parameters into the MatLab script and run the script. A figure tracing the the motion of the two ends of the wire should show up, and the G-code should be saved in the same folder.
@@ -484,7 +487,7 @@ Note that the root and tip cord length differed a lot, and the span is significa
 	}
 \end{tcolorbox}
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Export the projection of the top or side (or both) profiles from SolidWorks into .dxf files, the steps are demonstrated with the payload bay shown in fig~\ref{fig:sw1} below.
 	\begin{figure} [H]
 		\includegraphics[width = 0.6\linewidth]{./Figures/general_shape/sw1.png}
@@ -601,7 +604,7 @@ The foamcutter has 3 switches installed as shown in fig~\ref{fig:switch} below.
 	\caption{Three Switches of the Foamcutter}
 	\label{fig:switch}
 \end{figure}
-\begin{itemize}[noitemsep,topsep=0pt]
+\begin{itemize}[itemsep = 5pt,topsep=0pt]
 	\item Left most switch: \textbf{Exit switch} \\
 	Only operational when the foamcutter software is running. \\\
 	Hold the switch for 4 seconds will stop all motor movement, exit the foamcutter software and shutdown the Raspberry Pi.
@@ -618,13 +621,13 @@ The foamcutter has 3 switches installed as shown in fig~\ref{fig:switch} below.
 
 \section{Start a Cut}
 Please follow the steps below to operate the foamcutter:
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Prepare the G-code following guide from Chapter 1 Section~\ref{sec:gcode}.
 	\item Assemble the foamcutter following guide from Chapter 1 Section~\ref{sec:assemble}.
 	\item Check that the Wire Control switch (right most switch) is toggled to the down position.
 	\item Plug in the power cord.
 	\item Plug in the power supply for the hot wire but do not turn it on.
-	\item On your laptop, connect to the WiFi network named \textbf{``foamcutter''}, with password \textbf{``ucsdaiaadbf} or connect to the ethernet port to the ethernet port of the laptop with a ethernet cable.
+	\item On your laptop, connect to the WiFi network named \textbf{``foamcutter''}, with password \textbf{``ucsdaiaadbf}
 	\item Open PuTTY and connect to the Pi with user name \textbf{``pi''} and password \\ \textbf{``ucsdaiaadbf''}.
 	\item Open WinSCP and connect to the Pi. Upload the G-code file to the Pi folder \\ \textbf{``/home/pi''}.
 	\item In PuTTY, run: \textbf{sudo foamcutter}
@@ -635,7 +638,7 @@ Please follow the steps below to operate the foamcutter:
 
 \section{Secure the Foam}
 The foam can be secured with acrylic plates with thumb screws on the three sides. Follow the steps below to secure the foam on the work panel:
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Measure the width of the foam that need to be cut.
 	\item Set one acrylic plate half of the width of the foam so that the foam will be centered on the work panel. Make sure both ruler reads the same so that the acrylic plate is in the vertical direction as shown in fig~\ref{fig:foam1} below.
 	\begin{figure} [H]
@@ -673,7 +676,7 @@ The foam can be secured with acrylic plates with thumb screws on the three sides
 
 \section{End a Cut}
 To the cutting operation half way through a G-code:
-\begin{itemize}[noitemsep,topsep=0pt]
+\begin{itemize}[itemsep = 5pt,topsep=0pt]
 	\item In the PuTTY session, press \textbf{``Control + C''}. This will stop the cut and exit the program. It will also ask if desired to shutdown the Pi immediately.
 	\item Or hold the Exit switch for more than 3 seconds. This will stop the cut and exit the program, but will also immediately shutdown the Pi.
 \end{itemize}
@@ -682,7 +685,7 @@ To exit the program after the cut is finished, apart form the two options listed
 
 \section{Cleaning Up}
 After the Pi is properly turned off by:
-\begin{itemize}[noitemsep,topsep=0pt]
+\begin{itemize}[itemsep = 5pt,topsep=0pt]
 	\item Press Enter when seeing \textbf{``If you would like to shutdown the Pi now. Please press ENTER. Otherwise, press 'n' then press ENTER:''} when exiting the foamcutter software.
 	\item Or run \textbf{``sudo shutdown now''} in PuTTY.
 \end{itemize}
@@ -701,7 +704,7 @@ the green LED should flash a couple of times indicating the operating system is 
 \section{Install Raspbian on the Raspberry Pi}
 Raspbian is one of the recommended operating system for the Raspberry Pi. The following steps are used to install Raspbian and setup the Pi.
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Perform the Laptop setup guide in Chapter 1 Section~\ref{sec:laptop} if not already completed.
 	\item Download the Raspbian Sketch Lite version at: \\ \href{https://www.raspberrypi.org/downloads/raspbian/}{https://www.raspberrypi.org/downloads/raspbian/} The Lite version does not have desktop support, but should be sufficient for the foamcutter.
 	\item Download and install Etcher at \href{https://etcher.io/}{https://etcher.io/}.
@@ -721,7 +724,7 @@ Raspbian is one of the recommended operating system for the Raspberry Pi. The fo
 \section{Install WiringPi on the Raspberry Pi}
 WiringPi is a GPIO Interface library written for the Raspberry Pi. A complete guide can be found at: \href{http://wiringpi.com/}{http://wiringpi.com/}. To install on the pi, follow the complete guide at: \href{http://wiringpi.com/download-and-install/}{http://wiringpi.com/download-and-install/} or follow the steps below:
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item Power on the Pi and open PuTTY on your laptop.
 	\item Double click on the saved PuTTY session named ``foamcutter'' as shown in fig~\ref{fig:wiringpi} below.
 	\begin{figure} [H]
@@ -760,11 +763,9 @@ WiringPi is a GPIO Interface library written for the Raspberry Pi. A complete gu
 \end{enumerate}
 
 \section{Making the Pi into a Wireless Hotspot}
-\textbf{Do not perform the following procedure. This method seems to have unsolved connection problems and is not recommended currently. Connection through an Ethernet cable is recommended.}
-
 Making the Pi into a Wireless Hotspot will enable operation of the foamcutter even in areas without a wireless network. The following steps are adapted from: \href{https://elinux.org/RPI-Wireless-Hotspot}{https://elinux.org/RPI-Wireless-Hotspot}
 
-\begin{enumerate}[noitemsep,topsep=0pt]
+\begin{enumerate}[itemsep = 5pt,topsep=0pt]
 	\item SSH into the Pi via PuTTY.
 	\item Run: \textbf{sudo apt-get install hostapd udhcpd}
 	\item Run: \textbf{sudo nano /etc/udhcpd.conf} This will open a text editor, use keyboard instead of mouse to navigate.
@@ -876,90 +877,3 @@ The purchase history of this project are listed below.
 
 \end{appendices}
 \end{document}
-
-
-
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{figure} [H]
-%	\includegraphics[width = \linewidth]{......}
-%	\caption{......}
-%\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Subfigures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{figure}[H]
-%	\centering
-%	\begin{subfigure}[b]{.475\textwidth}
-%		\centering
-%		\includegraphics[width=\textwidth]{......}
-%		\caption{......}
-%	\end{subfigure}
-%	\begin{subfigure}[b]{.475\textwidth}
-%		\centering
-%		\includegraphics[width=\textwidth]{......}
-%		\caption{......}
-%	\end{subfigure}
-%	\centering
-%	\begin{subfigure}[b]{.475\textwidth}
-%		\centering
-%		\includegraphics[width=\textwidth]{......}
-%		\caption{......}
-%	\end{subfigure}
-%	\begin{subfigure}[b]{.475\textwidth}
-%		\centering
-%		\includegraphics[width=\textwidth]{......}
-%		\caption{......}
-%	\end{subfigure}
-%	
-%	\caption{......}
-%\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Tables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{table}[H]
-%	\caption{......} 
-%	\centering
-%   \renewcommand{\arraystretch}{1.5}
-%	\begin{tabular}{|c|m{20mm}|}  \hline
-%		......& ...... \\ \hline
-%		......&......  \\ \hline
-%		......& ...... \\ \hline
-%	\end{tabular} 
-%\end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Itemize %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{itemize}[noitemsep,topsep=0pt]
-%	\item ......
-%	\item ......
-%\end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Hyperlink %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\href{url......}{displaytext......}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\newpage
-%\appendix
-%\section{MatLab code}
-%\lstinputlisting{......}
-%\section{C code}
-%\includepdf[pages=-, pagecommand={}]{......}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Citation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\bibliographystyle{plain}
-%\bibliography{references}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Highlight %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\hlcolor{yellow}{...}
-
