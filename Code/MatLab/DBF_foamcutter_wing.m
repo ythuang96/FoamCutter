@@ -2,7 +2,7 @@
 % This code is modified by Yuting Huang (ythuang96@gmail.com) based on
 % Dr.Anderson's code written on Scilab.
 % Please report all bug to the author's email address.
-% Last updated: 8/23/2018
+% Last updated: 1/13/2019
 
 % This is written for DBF foamcutting, to generate G-code from wing
 % prameters.
@@ -75,14 +75,14 @@ tip_lower_y = tip_pts(tip_turn_point:tip_size, 2);
 
 %% Interpolate
 n = 301;
-root_upper_yp = interp1(root_upper_x,root_upper_y,linspace(1,0,n)');
+root_upper_yp = interp1(root_upper_x,root_upper_y,linspace(1,0,n)','linear','extrap');
 root_upper_xp = linspace(1,0,n)';
-root_lower_yp = interp1(root_lower_x,root_lower_y,linspace(0,1,n)');
+root_lower_yp = interp1(root_lower_x,root_lower_y,linspace(0,1,n)','linear','extrap');
 root_lower_xp = linspace(0,1,n)';
 
-tip_upper_yp = interp1(tip_upper_x,tip_upper_y,linspace(1,0,n)');
+tip_upper_yp = interp1(tip_upper_x,tip_upper_y,linspace(1,0,n)','linear','extrap');
 tip_upper_xp = linspace(1,0,n)';
-tip_lower_yp = interp1(tip_lower_x,tip_lower_y,linspace(0,1,n)');
+tip_lower_yp = interp1(tip_lower_x,tip_lower_y,linspace(0,1,n)','linear','extrap');
 tip_lower_xp = linspace(0,1,n)';
 
 %% Scale to Chord Length
